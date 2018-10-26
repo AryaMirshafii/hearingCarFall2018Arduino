@@ -1,0 +1,18 @@
+/*
+ * fall2018HearingCarMainCode.h
+ *
+ *  Created on: Oct 23, 2018
+ *      Author: aryamirshafii
+ */
+
+#include <Arduino.h>
+
+#ifndef FALL2018HEARINGCARMAINCODE_H_
+#define FALL2018HEARINGCARMAINCODE_H_
+
+static void calcDirectionAndFreq();
+static void writeToBLE(int isLeft, float freq);
+
+
+
+#endif /* FALL2018HEARINGCARMAINCODE_H_ */

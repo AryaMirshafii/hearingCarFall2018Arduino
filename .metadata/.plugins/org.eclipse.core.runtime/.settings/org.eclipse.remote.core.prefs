@@ -1,0 +1,6 @@
+connections/org.eclipse.cdt.arduino.core.connectionType/hearingCar/arduinoBoardName=arduino_zero_edbg
+connections/org.eclipse.cdt.arduino.core.connectionType/hearingCar/arduinoPackageName=arduino
+connections/org.eclipse.cdt.arduino.core.connectionType/hearingCar/arduinoPlatformName=samd
+connections/org.eclipse.cdt.arduino.core.connectionType/hearingCar/arduinoPortName=/dev/cu.usbmodem14532
+connections/org.eclipse.cdt.arduino.core.connectionType/hearingCar/programmer=edbg
+eclipse.preferences.version=1
