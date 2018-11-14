@@ -1,0 +1,13 @@
+/*
+ * FrequencyDetect.cpp
+ *
+ *  Created on: Nov 2, 2018
+ *      Author: aryamirshafii
+ */
+
+#include "FrequencyDetect.h"
+#include "Arduino.h"
+
+FrequencyDetect::FrequencyDetect(int pinNumber) {
+
+}

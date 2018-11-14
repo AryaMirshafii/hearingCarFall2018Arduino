@@ -1,0 +1,19 @@
+/*
+ * FrequencyDetect.h
+ *
+ *  Created on: Nov 2, 2018
+ *      Author: aryamirshafii
+ */
+
+#ifndef FREQUENCYDETECT_H_
+#define FREQUENCYDETECT_H_
+class FrequencyDetect{
+	public:
+		FrequencyDetect(int);
+		void begin();
+};
+
+
+
+
+#endif /* FREQUENCYDETECT_H_ */

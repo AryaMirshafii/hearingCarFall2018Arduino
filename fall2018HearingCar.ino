@@ -6,36 +6,42 @@
 #include "SoftwareSerial.h"
 #include "AudioFrequencyMeter.h"
 
-
-
 //AudioFrequencyMeter meter;
-int inputPin = A0;
+int frequencyPin = A0;
 int rightPin = 6;
 int leftPin = 7;
 
 
 float frequency = 0;
-int frequencyPin;
+
 int leftSound = 0;
 int rightSound = 0;
-
+void calcDirectionAndFreq();
+void writeToBLE(int isLeft, float freq);
 AudioFrequencyMeter meter;
 SoftwareSerial mySerial(12, 13); //RX, TX
 
-void setup() {
-  // put your setup code here, to run once:
 
-  Serial.begin(115200);
+
+void setup() {
+
+
+  Serial.begin(9600);
   pinMode(rightPin, INPUT);
   pinMode(leftPin, INPUT);
 
-  meter.setBandwidth(70.00, 1500);    // Ignore frequency out of this range
+  meter.setBandwidth(60.00, 1500);
   meter.begin(frequencyPin, 45000);
+  
+
+
 
 }
 
 void loop() {
   calcDirectionAndFreq();
+  
+  //delay(500);
 }
 
 
@@ -44,69 +50,79 @@ void calcDirectionAndFreq(){
   frequency = meter.getFrequency();
   leftSound = digitalRead(leftPin);
   rightSound = digitalRead(rightPin);
-  
+
   if(leftSound == HIGH && rightSound == LOW){
-    
+  // For debugging only
     Serial.println("The Sound is coming from the left");
+    
+    //lcd.print("Sound from left");
+
   }else if (leftSound == LOW && rightSound == HIGH){
+  // For debugging only
+
+  
+  //lcd.print("Sound from Right");
+
     Serial.println("The Sound is coming from the right");
   }
 
   writeToBLE(leftSound, frequency);
 
 
-  
-  
-  
+
+
+  if(frequency > 0){
+    
+  }
   Serial.print("With a frequency of");
   Serial.println(frequency);
 
-  
+
+
 }
 
 
 
 
 
-// take in ints 
+// take in ints
 // 1 = Left siren
-// 2 = left horn 
+// 2 = left horn
 // 3 = right siren
 // 4 = right horn
 void writeToBLE(int isLeft, float freq){
-    
-    if(freq > 350 && freq < 450){
+
+    if(freq >= 350 && freq <= 450){
        // its a horn
-       
+
        if(isLeft){
           mySerial.println(2);
+          
        }else{
           mySerial.println(4);
+          
        }
-       
-       
-    }else if(freq > 850 && freq < 950){
-      // siren
+
+
+    }else if(freq >= 850 && freq <= 950){
+      // its a siren
 
       if(isLeft){
           mySerial.println(1);
+
+          
+
+
+
        }else{
           mySerial.println(3);
+
+          
        }
-      
+
     }
 
-    
-    
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-

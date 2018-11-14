@@ -8,6 +8,8 @@
 #include "SoftwareSerial.h"
 #include "AudioFrequencyMeter.h"
 #include "fall2018HearingCarMainCode.h"
+#include "LiquidCrystal.h"
+
 
 
 
@@ -26,6 +28,8 @@ void writeToBLE(int isLeft, float freq);
 AudioFrequencyMeter meter;
 SoftwareSerial mySerial(12, 13); //RX, TX
 
+LiquidCrystal lcd(0, 1, 8, 9, 10, 11); //Initialize LCD
+
 void setup() {
 
 
@@ -35,12 +39,18 @@ void setup() {
 
   meter.setBandwidth(60.00, 1500);
   meter.begin(frequencyPin, 45000);
+  lcd.begin(16, 2);
+
+  lcd.setCursor(0, 0);
+
 
 
 }
 
 void loop() {
   calcDirectionAndFreq();
+  Serial.print("With a frequency of");
+  //delay(500);
 }
 
 
@@ -53,6 +63,7 @@ void calcDirectionAndFreq(){
   if(leftSound == HIGH && rightSound == LOW){
 	// For debugging only
     Serial.println("The Sound is coming from the left");
+
   }else if (leftSound == LOW && rightSound == HIGH){
 	// For debugging only
     Serial.println("The Sound is coming from the right");
@@ -87,8 +98,14 @@ void writeToBLE(int isLeft, float freq){
 
        if(isLeft){
           mySerial.println(2);
+          lcd.setCursor(0, 0);
+          lcd.clear();
+          lcd.print("Left horn");
        }else{
           mySerial.println(4);
+          lcd.setCursor(0, 0);
+          lcd.clear();
+          lcd.print("Right horn");
        }
 
 
@@ -97,8 +114,19 @@ void writeToBLE(int isLeft, float freq){
 
       if(isLeft){
           mySerial.println(1);
+
+          lcd.setCursor(0, 0);
+          lcd.clear();
+          lcd.print("Left siren");
+
+
+
        }else{
           mySerial.println(3);
+
+          lcd.setCursor(0, 0);
+          lcd.clear();
+          lcd.print("Right siren");
        }
 
     }

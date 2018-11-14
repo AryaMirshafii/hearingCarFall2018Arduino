@@ -2,7 +2,7 @@ Archive member included because of file (symbol)
 
 ./core.a(wiring.c.o)          project/AudioFrequencyMeter.cpp.o (SystemCoreClock)
 ./core.a(wiring_digital.c.o)  project/AudioFrequencyMeter.cpp.o (pinMode)
-./core.a(Print.cpp.o)         project/SoftwareSerial.cpp.o (Print::write(unsigned char const*, unsigned int))
+./core.a(Print.cpp.o)         project/LiquidCrystal.cpp.o (Print::write(unsigned char const*, unsigned int))
 ./core.a(abi.cpp.o)           project/SoftwareSerial.cpp.o (__cxa_pure_virtual)
 ./core.a(cortex_handlers.c.o)
                               (Reset_Handler)
@@ -148,6 +148,70 @@ Discarded input sections
                 0x0000000000000000       0x18 project/AudioFrequencyMeter.cpp.o
  .text._ZN19AudioFrequencyMeter3endEv
                 0x0000000000000000       0x16 project/AudioFrequencyMeter.cpp.o
+ .text          0x0000000000000000        0x0 project/FrequencyDetect.cpp.o
+ .data          0x0000000000000000        0x0 project/FrequencyDetect.cpp.o
+ .bss           0x0000000000000000        0x0 project/FrequencyDetect.cpp.o
+ .text._ZN15FrequencyDetectC2Ei
+                0x0000000000000000        0xc project/FrequencyDetect.cpp.o
+ .text._ZN15FrequencyDetect5beginEv
+                0x0000000000000000        0x2 project/FrequencyDetect.cpp.o
+ .bss.samplePin
+                0x0000000000000000        0x4 project/FrequencyDetect.cpp.o
+ .debug_info    0x0000000000000000      0x247 project/FrequencyDetect.cpp.o
+ .debug_abbrev  0x0000000000000000      0x14b project/FrequencyDetect.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x28 project/FrequencyDetect.cpp.o
+ .debug_ranges  0x0000000000000000       0x18 project/FrequencyDetect.cpp.o
+ .debug_line    0x0000000000000000      0x23f project/FrequencyDetect.cpp.o
+ .debug_str     0x0000000000000000      0x2eb project/FrequencyDetect.cpp.o
+ .comment       0x0000000000000000       0x71 project/FrequencyDetect.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x32 project/FrequencyDetect.cpp.o
+ .debug_frame   0x0000000000000000       0x30 project/FrequencyDetect.cpp.o
+ .group         0x0000000000000000        0x8 project/LiquidCrystal.cpp.o
+ .group         0x0000000000000000        0x8 project/LiquidCrystal.cpp.o
+ .group         0x0000000000000000        0x8 project/LiquidCrystal.cpp.o
+ .group         0x0000000000000000        0x8 project/LiquidCrystal.cpp.o
+ .group         0x0000000000000000        0x8 project/LiquidCrystal.cpp.o
+ .text          0x0000000000000000        0x0 project/LiquidCrystal.cpp.o
+ .data          0x0000000000000000        0x0 project/LiquidCrystal.cpp.o
+ .bss           0x0000000000000000        0x0 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal13setRowOffsetsEiiii
+                0x0000000000000000        0xc project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal4homeEv
+                0x0000000000000000       0x12 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal9noDisplayEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal4initEhhhhhhhhhhhh
+                0x0000000000000000       0x6a project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhhh
+                0x0000000000000000       0x74 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhh
+                0x0000000000000000       0x70 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhh
+                0x0000000000000000       0x50 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal8noCursorEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal6cursorEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal7noBlinkEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal5blinkEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal17scrollDisplayLeftEv
+                0x0000000000000000        0xa project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal18scrollDisplayRightEv
+                0x0000000000000000        0xa project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal11leftToRightEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal11rightToLeftEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal10autoscrollEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal12noAutoscrollEv
+                0x0000000000000000       0x14 project/LiquidCrystal.cpp.o
+ .text._ZN13LiquidCrystal10createCharEhPh
+                0x0000000000000000       0x28 project/LiquidCrystal.cpp.o
  .group         0x0000000000000000        0x8 project/SoftwareSerial.cpp.o
  .group         0x0000000000000000        0x8 project/SoftwareSerial.cpp.o
  .group         0x0000000000000000        0x8 project/SoftwareSerial.cpp.o
@@ -155,6 +219,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 project/SoftwareSerial.cpp.o
  .data          0x0000000000000000        0x0 project/SoftwareSerial.cpp.o
  .bss           0x0000000000000000        0x0 project/SoftwareSerial.cpp.o
+ .text._ZN5Print17availableForWriteEv
+                0x0000000000000000        0x4 project/SoftwareSerial.cpp.o
  .text._ZN5Print5flushEv
                 0x0000000000000000        0x2 project/SoftwareSerial.cpp.o
  .text._ZN14SoftwareSerial16handle_interruptEv
@@ -178,8 +244,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 project/fall2018HearingCarMainCode.cpp.o
  .data          0x0000000000000000        0x0 project/fall2018HearingCarMainCode.cpp.o
  .bss           0x0000000000000000        0x0 project/fall2018HearingCarMainCode.cpp.o
- .data.inputPin
-                0x0000000000000000        0x4 project/fall2018HearingCarMainCode.cpp.o
  .text          0x0000000000000000        0x0 ./core.a(wiring.c.o)
  .data          0x0000000000000000        0x0 ./core.a(wiring.c.o)
  .bss           0x0000000000000000        0x0 ./core.a(wiring.c.o)
@@ -648,6 +712,8 @@ LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4
 LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
 LOAD project/AudioFrequencyMeter.cpp.o
+LOAD project/FrequencyDetect.cpp.o
+LOAD project/LiquidCrystal.cpp.o
 LOAD project/SoftwareSerial.cpp.o
 LOAD project/fall2018HearingCarMainCode.cpp.o
 START GROUP
@@ -672,7 +738,7 @@ END GROUP
 LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
 LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
 
-.text           0x0000000000002000     0x54a8
+.text           0x0000000000002000     0x5850
                 0x0000000000002000                __text_start__ = .
  *(.sketch_boot)
                 0x0000000000002000                . = ALIGN (0x2000)
@@ -727,555 +793,593 @@ LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4
                 0x00000000000023f8      0x1c0 project/AudioFrequencyMeter.cpp.o
                 0x00000000000023f8                TC5_Handler
  .text._ZN5Print17availableForWriteEv
-                0x00000000000025b8        0x4 project/SoftwareSerial.cpp.o
+                0x00000000000025b8        0x4 project/LiquidCrystal.cpp.o
                 0x00000000000025b8                Print::availableForWrite()
+ .text._ZN5Print5flushEv
+                0x00000000000025bc        0x2 project/LiquidCrystal.cpp.o
+                0x00000000000025bc                Print::flush()
+ .text._ZN13LiquidCrystal11pulseEnableEv
+                0x00000000000025be       0x32 project/LiquidCrystal.cpp.o
+                0x00000000000025be                LiquidCrystal::pulseEnable()
+ .text._ZN13LiquidCrystal10write4bitsEh
+                0x00000000000025f0       0x26 project/LiquidCrystal.cpp.o
+                0x00000000000025f0                LiquidCrystal::write4bits(unsigned char)
+ .text._ZN13LiquidCrystal10write8bitsEh
+                0x0000000000002616       0x26 project/LiquidCrystal.cpp.o
+                0x0000000000002616                LiquidCrystal::write8bits(unsigned char)
+ .text._ZN13LiquidCrystal4sendEhh
+                0x000000000000263c       0x3c project/LiquidCrystal.cpp.o
+                0x000000000000263c                LiquidCrystal::send(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal7commandEh
+                0x0000000000002678        0xa project/LiquidCrystal.cpp.o
+                0x0000000000002678                LiquidCrystal::command(unsigned char)
+ .text._ZN13LiquidCrystal5clearEv
+                0x0000000000002682       0x12 project/LiquidCrystal.cpp.o
+                0x0000000000002682                LiquidCrystal::clear()
+ .text._ZN13LiquidCrystal9setCursorEhh
+                0x0000000000002694       0x2a project/LiquidCrystal.cpp.o
+                0x0000000000002694                LiquidCrystal::setCursor(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal7displayEv
+                0x00000000000026be       0x14 project/LiquidCrystal.cpp.o
+                0x00000000000026be                LiquidCrystal::display()
+ *fill*         0x00000000000026d2        0x2 
+ .text._ZN13LiquidCrystal5beginEhhh
+                0x00000000000026d4      0x128 project/LiquidCrystal.cpp.o
+                0x00000000000026d4                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystalC2Ehhhhhh
+                0x00000000000027fc       0x4c project/LiquidCrystal.cpp.o
+                0x00000000000027fc                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00000000000027fc                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal5writeEh
+                0x0000000000002848        0xc project/LiquidCrystal.cpp.o
+                0x0000000000002848                LiquidCrystal::write(unsigned char)
  .text._ZN14SoftwareSerial4readEv
-                0x00000000000025bc       0x3c project/SoftwareSerial.cpp.o
-                0x00000000000025bc                SoftwareSerial::read()
+                0x0000000000002854       0x3c project/SoftwareSerial.cpp.o
+                0x0000000000002854                SoftwareSerial::read()
  .text._ZN14SoftwareSerial5writeEh
-                0x00000000000025f8       0xb0 project/SoftwareSerial.cpp.o
-                0x00000000000025f8                SoftwareSerial::write(unsigned char)
+                0x0000000000002890       0xb0 project/SoftwareSerial.cpp.o
+                0x0000000000002890                SoftwareSerial::write(unsigned char)
  .text._ZN14SoftwareSerial4peekEv
-                0x00000000000026a8       0x34 project/SoftwareSerial.cpp.o
-                0x00000000000026a8                SoftwareSerial::peek()
+                0x0000000000002940       0x34 project/SoftwareSerial.cpp.o
+                0x0000000000002940                SoftwareSerial::peek()
  .text._ZN14SoftwareSerial9availableEv
-                0x00000000000026dc       0x3c project/SoftwareSerial.cpp.o
-                0x00000000000026dc                SoftwareSerial::available()
+                0x0000000000002974       0x3c project/SoftwareSerial.cpp.o
+                0x0000000000002974                SoftwareSerial::available()
  .text._ZN14SoftwareSerial5flushEv
-                0x0000000000002718       0x3c project/SoftwareSerial.cpp.o
-                0x0000000000002718                SoftwareSerial::flush()
+                0x00000000000029b0       0x3c project/SoftwareSerial.cpp.o
+                0x00000000000029b0                SoftwareSerial::flush()
  .text._ZN14SoftwareSerial13stopListeningEv
-                0x0000000000002754       0x2c project/SoftwareSerial.cpp.o
-                0x0000000000002754                SoftwareSerial::stopListening()
+                0x00000000000029ec       0x2c project/SoftwareSerial.cpp.o
+                0x00000000000029ec                SoftwareSerial::stopListening()
  .text._ZN14SoftwareSerialC2Ehhb
-                0x0000000000002780       0x3c project/SoftwareSerial.cpp.o
-                0x0000000000002780                SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool)
-                0x0000000000002780                SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool)
+                0x0000000000002a18       0x3c project/SoftwareSerial.cpp.o
+                0x0000000000002a18                SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool)
+                0x0000000000002a18                SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool)
  .text._ZN14SoftwareSerialD2Ev
-                0x00000000000027bc       0x18 project/SoftwareSerial.cpp.o
-                0x00000000000027bc                SoftwareSerial::~SoftwareSerial()
-                0x00000000000027bc                SoftwareSerial::~SoftwareSerial()
+                0x0000000000002a54       0x18 project/SoftwareSerial.cpp.o
+                0x0000000000002a54                SoftwareSerial::~SoftwareSerial()
+                0x0000000000002a54                SoftwareSerial::~SoftwareSerial()
  .text._Z10writeToBLEif
-                0x00000000000027d4       0x68 project/fall2018HearingCarMainCode.cpp.o
-                0x00000000000027d4                writeToBLE(int, float)
+                0x0000000000002a6c       0xec project/fall2018HearingCarMainCode.cpp.o
+                0x0000000000002a6c                writeToBLE(int, float)
  .text._Z20calcDirectionAndFreqv
-                0x000000000000283c       0x98 project/fall2018HearingCarMainCode.cpp.o
-                0x000000000000283c                calcDirectionAndFreq()
- .text.loop     0x00000000000028d4        0x8 project/fall2018HearingCarMainCode.cpp.o
-                0x00000000000028d4                loop
- .text.startup._GLOBAL__sub_I_inputPin
-                0x00000000000028dc       0x34 project/fall2018HearingCarMainCode.cpp.o
- .text.setup    0x0000000000002910       0x5c project/fall2018HearingCarMainCode.cpp.o
-                0x0000000000002910                setup
- .text.init     0x000000000000296c       0xf0 ./core.a(wiring.c.o)
-                0x000000000000296c                init
- .text.pinMode  0x0000000000002a5c       0xb4 ./core.a(wiring_digital.c.o)
-                0x0000000000002a5c                pinMode
+                0x0000000000002b58       0x98 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000000002b58                calcDirectionAndFreq()
+ .text.loop     0x0000000000002bf0       0x18 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000000002bf0                loop
+ .text.startup._GLOBAL__sub_I_frequencyPin
+                0x0000000000002c08       0x50 project/fall2018HearingCarMainCode.cpp.o
+ .text.setup    0x0000000000002c58       0x78 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000000002c58                setup
+ .text.init     0x0000000000002cd0       0xf0 ./core.a(wiring.c.o)
+                0x0000000000002cd0                init
+ .text.pinMode  0x0000000000002dc0       0xb4 ./core.a(wiring_digital.c.o)
+                0x0000000000002dc0                pinMode
  .text.digitalWrite
-                0x0000000000002b10       0x60 ./core.a(wiring_digital.c.o)
-                0x0000000000002b10                digitalWrite
+                0x0000000000002e74       0x60 ./core.a(wiring_digital.c.o)
+                0x0000000000002e74                digitalWrite
  .text.digitalRead
-                0x0000000000002b70       0x30 ./core.a(wiring_digital.c.o)
-                0x0000000000002b70                digitalRead
+                0x0000000000002ed4       0x30 ./core.a(wiring_digital.c.o)
+                0x0000000000002ed4                digitalRead
  .text._ZN5Print5writeEPKhj
-                0x0000000000002ba0       0x28 ./core.a(Print.cpp.o)
-                0x0000000000002ba0                Print::write(unsigned char const*, unsigned int)
+                0x0000000000002f04       0x28 ./core.a(Print.cpp.o)
+                0x0000000000002f04                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5writeEPKc
-                0x0000000000002bc8       0x1c ./core.a(Print.cpp.o)
-                0x0000000000002bc8                Print::write(char const*)
+                0x0000000000002f2c       0x1c ./core.a(Print.cpp.o)
+                0x0000000000002f2c                Print::write(char const*)
  .text._ZN5Print5printEPKc
-                0x0000000000002be4        0x8 ./core.a(Print.cpp.o)
-                0x0000000000002be4                Print::print(char const*)
+                0x0000000000002f48        0x8 ./core.a(Print.cpp.o)
+                0x0000000000002f48                Print::print(char const*)
  .text._ZN5Print5printEc
-                0x0000000000002bec        0xa ./core.a(Print.cpp.o)
-                0x0000000000002bec                Print::print(char)
- *fill*         0x0000000000002bf6        0x2 
+                0x0000000000002f50        0xa ./core.a(Print.cpp.o)
+                0x0000000000002f50                Print::print(char)
+ *fill*         0x0000000000002f5a        0x2 
  .text._ZN5Print7printlnEv
-                0x0000000000002bf8       0x10 ./core.a(Print.cpp.o)
-                0x0000000000002bf8                Print::println()
+                0x0000000000002f5c       0x10 ./core.a(Print.cpp.o)
+                0x0000000000002f5c                Print::println()
  .text._ZN5Print7printlnEPKc
-                0x0000000000002c08       0x14 ./core.a(Print.cpp.o)
-                0x0000000000002c08                Print::println(char const*)
+                0x0000000000002f6c       0x14 ./core.a(Print.cpp.o)
+                0x0000000000002f6c                Print::println(char const*)
  .text._ZN5Print11printNumberEmh
-                0x0000000000002c1c       0x4e ./core.a(Print.cpp.o)
-                0x0000000000002c1c                Print::printNumber(unsigned long, unsigned char)
+                0x0000000000002f80       0x4e ./core.a(Print.cpp.o)
+                0x0000000000002f80                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEli
-                0x0000000000002c6a       0x3c ./core.a(Print.cpp.o)
-                0x0000000000002c6a                Print::print(long, int)
+                0x0000000000002fce       0x3c ./core.a(Print.cpp.o)
+                0x0000000000002fce                Print::print(long, int)
  .text._ZN5Print7printlnEii
-                0x0000000000002ca6       0x14 ./core.a(Print.cpp.o)
-                0x0000000000002ca6                Print::println(int, int)
- *fill*         0x0000000000002cba        0x6 
+                0x000000000000300a       0x14 ./core.a(Print.cpp.o)
+                0x000000000000300a                Print::println(int, int)
+ *fill*         0x000000000000301e        0x2 
  .text._ZN5Print10printFloatEdh
-                0x0000000000002cc0      0x170 ./core.a(Print.cpp.o)
-                0x0000000000002cc0                Print::printFloat(double, unsigned char)
+                0x0000000000003020      0x170 ./core.a(Print.cpp.o)
+                0x0000000000003020                Print::printFloat(double, unsigned char)
  .text._ZN5Print7printlnEdi
-                0x0000000000002e30       0x1c ./core.a(Print.cpp.o)
-                0x0000000000002e30                Print::println(double, int)
+                0x0000000000003190       0x1c ./core.a(Print.cpp.o)
+                0x0000000000003190                Print::println(double, int)
  .text.Dummy_Handler
-                0x0000000000002e4c        0x2 ./core.a(cortex_handlers.c.o)
-                0x0000000000002e4c                SYSCTRL_Handler
-                0x0000000000002e4c                HardFault_Handler
-                0x0000000000002e4c                AC_Handler
-                0x0000000000002e4c                PendSV_Handler
-                0x0000000000002e4c                NMI_Handler
-                0x0000000000002e4c                TC7_Handler
-                0x0000000000002e4c                SERCOM1_Handler
-                0x0000000000002e4c                ADC_Handler
-                0x0000000000002e4c                TCC1_Handler
-                0x0000000000002e4c                SERCOM2_Handler
-                0x0000000000002e4c                TCC0_Handler
-                0x0000000000002e4c                RTC_Handler
-                0x0000000000002e4c                TC6_Handler
-                0x0000000000002e4c                WDT_Handler
-                0x0000000000002e4c                TC4_Handler
-                0x0000000000002e4c                TC3_Handler
-                0x0000000000002e4c                Dummy_Handler
-                0x0000000000002e4c                PM_Handler
-                0x0000000000002e4c                SVC_Handler
-                0x0000000000002e4c                TCC2_Handler
-                0x0000000000002e4c                EVSYS_Handler
-                0x0000000000002e4c                SERCOM3_Handler
-                0x0000000000002e4c                SERCOM4_Handler
-                0x0000000000002e4c                I2S_Handler
-                0x0000000000002e4c                NVMCTRL_Handler
-                0x0000000000002e4c                DAC_Handler
-                0x0000000000002e4c                PTC_Handler
-                0x0000000000002e4c                DMAC_Handler
- *fill*         0x0000000000002e4e        0x2 
+                0x00000000000031ac        0x2 ./core.a(cortex_handlers.c.o)
+                0x00000000000031ac                SYSCTRL_Handler
+                0x00000000000031ac                HardFault_Handler
+                0x00000000000031ac                AC_Handler
+                0x00000000000031ac                PendSV_Handler
+                0x00000000000031ac                NMI_Handler
+                0x00000000000031ac                TC7_Handler
+                0x00000000000031ac                SERCOM1_Handler
+                0x00000000000031ac                ADC_Handler
+                0x00000000000031ac                TCC1_Handler
+                0x00000000000031ac                SERCOM2_Handler
+                0x00000000000031ac                TCC0_Handler
+                0x00000000000031ac                RTC_Handler
+                0x00000000000031ac                TC6_Handler
+                0x00000000000031ac                WDT_Handler
+                0x00000000000031ac                TC4_Handler
+                0x00000000000031ac                TC3_Handler
+                0x00000000000031ac                Dummy_Handler
+                0x00000000000031ac                PM_Handler
+                0x00000000000031ac                SVC_Handler
+                0x00000000000031ac                TCC2_Handler
+                0x00000000000031ac                EVSYS_Handler
+                0x00000000000031ac                SERCOM3_Handler
+                0x00000000000031ac                SERCOM4_Handler
+                0x00000000000031ac                I2S_Handler
+                0x00000000000031ac                NVMCTRL_Handler
+                0x00000000000031ac                DAC_Handler
+                0x00000000000031ac                PTC_Handler
+                0x00000000000031ac                DMAC_Handler
+ *fill*         0x00000000000031ae        0x2 
  .text.USB_Handler
-                0x0000000000002e50       0x14 ./core.a(cortex_handlers.c.o)
-                0x0000000000002e50                USB_Handler
+                0x00000000000031b0       0x14 ./core.a(cortex_handlers.c.o)
+                0x00000000000031b0                USB_Handler
  .text.Reset_Handler
-                0x0000000000002e64       0x54 ./core.a(cortex_handlers.c.o)
-                0x0000000000002e64                Reset_Handler
+                0x00000000000031c4       0x54 ./core.a(cortex_handlers.c.o)
+                0x00000000000031c4                Reset_Handler
  .text.SysTick_Handler
-                0x0000000000002eb8       0x10 ./core.a(cortex_handlers.c.o)
-                0x0000000000002eb8                SysTick_Handler
+                0x0000000000003218       0x10 ./core.a(cortex_handlers.c.o)
+                0x0000000000003218                SysTick_Handler
  .text.USB_SetHandler
-                0x0000000000002ec8        0xc ./core.a(cortex_handlers.c.o)
-                0x0000000000002ec8                USB_SetHandler
+                0x0000000000003228        0xc ./core.a(cortex_handlers.c.o)
+                0x0000000000003228                USB_SetHandler
  .text.pinPeripheral
-                0x0000000000002ed4       0xc4 ./core.a(wiring_private.c.o)
-                0x0000000000002ed4                pinPeripheral
- .text.__empty  0x0000000000002f98        0x2 ./core.a(hooks.c.o)
-                0x0000000000002f98                yield
- .text.__false  0x0000000000002f9a        0x4 ./core.a(hooks.c.o)
-                0x0000000000002f9a                sysTickHook
- *fill*         0x0000000000002f9e        0x2 
+                0x0000000000003234       0xc4 ./core.a(wiring_private.c.o)
+                0x0000000000003234                pinPeripheral
+ .text.__empty  0x00000000000032f8        0x2 ./core.a(hooks.c.o)
+                0x00000000000032f8                yield
+ .text.__false  0x00000000000032fa        0x4 ./core.a(hooks.c.o)
+                0x00000000000032fa                sysTickHook
+ *fill*         0x00000000000032fe        0x2 
  .text.EIC_Handler
-                0x0000000000002fa0       0x3c ./core.a(WInterrupts.c.o)
-                0x0000000000002fa0                EIC_Handler
+                0x0000000000003300       0x3c ./core.a(WInterrupts.c.o)
+                0x0000000000003300                EIC_Handler
  .text._ZN4UartcvbEv
-                0x0000000000002fdc        0x4 ./core.a(Uart.cpp.o)
-                0x0000000000002fdc                Uart::operator bool()
+                0x000000000000333c        0x4 ./core.a(Uart.cpp.o)
+                0x000000000000333c                Uart::operator bool()
  .text._ZN4Uart5beginEm
-                0x0000000000002fe0       0x10 ./core.a(Uart.cpp.o)
-                0x0000000000002fe0                Uart::begin(unsigned long)
+                0x0000000000003340       0x10 ./core.a(Uart.cpp.o)
+                0x0000000000003340                Uart::begin(unsigned long)
  .text._ZN4Uart4peekEv
-                0x0000000000002ff0       0x16 ./core.a(Uart.cpp.o)
-                0x0000000000002ff0                Uart::peek()
+                0x0000000000003350       0x16 ./core.a(Uart.cpp.o)
+                0x0000000000003350                Uart::peek()
  .text._ZN4Uart3endEv
-                0x0000000000003006       0x1c ./core.a(Uart.cpp.o)
-                0x0000000000003006                Uart::end()
- *fill*         0x0000000000003022        0x2 
+                0x0000000000003366       0x1c ./core.a(Uart.cpp.o)
+                0x0000000000003366                Uart::end()
+ *fill*         0x0000000000003382        0x2 
  .text._ZN4UartC2EP6SERCOMhh11SercomRXPad15SercomUartTXPadhh
-                0x0000000000003024       0x7c ./core.a(Uart.cpp.o)
-                0x0000000000003024                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
-                0x0000000000003024                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
+                0x0000000000003384       0x7c ./core.a(Uart.cpp.o)
+                0x0000000000003384                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
+                0x0000000000003384                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
  .text._ZN4UartC2EP6SERCOMhh11SercomRXPad15SercomUartTXPad
-                0x00000000000030a0       0x24 ./core.a(Uart.cpp.o)
-                0x00000000000030a0                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
-                0x00000000000030a0                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x0000000000003400       0x24 ./core.a(Uart.cpp.o)
+                0x0000000000003400                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x0000000000003400                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
  .text._ZN4Uart16extractNbStopBitEt
-                0x00000000000030c4        0xe ./core.a(Uart.cpp.o)
-                0x00000000000030c4                Uart::extractNbStopBit(unsigned short)
+                0x0000000000003424        0xe ./core.a(Uart.cpp.o)
+                0x0000000000003424                Uart::extractNbStopBit(unsigned short)
  .text._ZN4Uart15extractCharSizeEt
-                0x00000000000030d2       0x2c ./core.a(Uart.cpp.o)
-                0x00000000000030d2                Uart::extractCharSize(unsigned short)
+                0x0000000000003432       0x2c ./core.a(Uart.cpp.o)
+                0x0000000000003432                Uart::extractCharSize(unsigned short)
  .text._ZN4Uart13extractParityEt
-                0x00000000000030fe       0x18 ./core.a(Uart.cpp.o)
-                0x00000000000030fe                Uart::extractParity(unsigned short)
- *fill*         0x0000000000003116        0x2 
+                0x000000000000345e       0x18 ./core.a(Uart.cpp.o)
+                0x000000000000345e                Uart::extractParity(unsigned short)
+ *fill*         0x0000000000003476        0x2 
  .text._ZN4Uart5beginEmt
-                0x0000000000003118       0xf4 ./core.a(Uart.cpp.o)
-                0x0000000000003118                Uart::begin(unsigned long, unsigned short)
+                0x0000000000003478       0xf4 ./core.a(Uart.cpp.o)
+                0x0000000000003478                Uart::begin(unsigned long, unsigned short)
  .text._ZN11RingBufferNILi64EE9availableEv
-                0x000000000000320c        0xc ./core.a(Uart.cpp.o)
-                0x000000000000320c                RingBufferN<64>::available()
+                0x000000000000356c        0xc ./core.a(Uart.cpp.o)
+                0x000000000000356c                RingBufferN<64>::available()
  .text._ZN4Uart5flushEv
-                0x0000000000003218       0x18 ./core.a(Uart.cpp.o)
-                0x0000000000003218                Uart::flush()
+                0x0000000000003578       0x18 ./core.a(Uart.cpp.o)
+                0x0000000000003578                Uart::flush()
  .text._ZN4Uart9availableEv
-                0x0000000000003230        0xa ./core.a(Uart.cpp.o)
-                0x0000000000003230                Uart::available()
+                0x0000000000003590        0xa ./core.a(Uart.cpp.o)
+                0x0000000000003590                Uart::available()
  .text._ZN11RingBufferNILi64EE17availableForStoreEv
-                0x000000000000323a       0x1c ./core.a(Uart.cpp.o)
-                0x000000000000323a                RingBufferN<64>::availableForStore()
+                0x000000000000359a       0x1c ./core.a(Uart.cpp.o)
+                0x000000000000359a                RingBufferN<64>::availableForStore()
  .text._ZN4Uart17availableForWriteEv
-                0x0000000000003256        0xa ./core.a(Uart.cpp.o)
-                0x0000000000003256                Uart::availableForWrite()
+                0x00000000000035b6        0xa ./core.a(Uart.cpp.o)
+                0x00000000000035b6                Uart::availableForWrite()
  .text._ZN4Uart10IrqHandlerEv
-                0x0000000000003260       0xb2 ./core.a(Uart.cpp.o)
-                0x0000000000003260                Uart::IrqHandler()
- *fill*         0x0000000000003312        0x2 
+                0x00000000000035c0       0xb2 ./core.a(Uart.cpp.o)
+                0x00000000000035c0                Uart::IrqHandler()
+ *fill*         0x0000000000003672        0x2 
  .text._ZN4Uart5writeEh
-                0x0000000000003314       0xb8 ./core.a(Uart.cpp.o)
-                0x0000000000003314                Uart::write(unsigned char)
+                0x0000000000003674       0xb8 ./core.a(Uart.cpp.o)
+                0x0000000000003674                Uart::write(unsigned char)
  .text._ZN4Uart4readEv
-                0x00000000000033cc       0x48 ./core.a(Uart.cpp.o)
-                0x00000000000033cc                Uart::read()
+                0x000000000000372c       0x48 ./core.a(Uart.cpp.o)
+                0x000000000000372c                Uart::read()
  .text.mapResolution
-                0x0000000000003414       0x12 ./core.a(wiring_analog.c.o)
- *fill*         0x0000000000003426        0x2 
+                0x0000000000003774       0x12 ./core.a(wiring_analog.c.o)
+ *fill*         0x0000000000003786        0x2 
  .text.analogReference
-                0x0000000000003428       0x5c ./core.a(wiring_analog.c.o)
-                0x0000000000003428                analogReference
+                0x0000000000003788       0x5c ./core.a(wiring_analog.c.o)
+                0x0000000000003788                analogReference
  .text.analogRead
-                0x0000000000003484       0xd4 ./core.a(wiring_analog.c.o)
-                0x0000000000003484                analogRead
+                0x00000000000037e4       0xd4 ./core.a(wiring_analog.c.o)
+                0x00000000000037e4                analogRead
  .text._Z11initVariantv
-                0x0000000000003558        0x2 ./core.a(main.cpp.o)
-                0x0000000000003558                initVariant()
- *fill*         0x000000000000355a        0x2 
+                0x00000000000038b8        0x2 ./core.a(main.cpp.o)
+                0x00000000000038b8                initVariant()
+ *fill*         0x00000000000038ba        0x2 
  .text.startup.main
-                0x000000000000355c       0x40 ./core.a(main.cpp.o)
-                0x000000000000355c                main
+                0x00000000000038bc       0x40 ./core.a(main.cpp.o)
+                0x00000000000038bc                main
  .text.SystemInit
-                0x000000000000359c      0x168 ./core.a(startup.c.o)
-                0x000000000000359c                SystemInit
+                0x00000000000038fc      0x168 ./core.a(startup.c.o)
+                0x00000000000038fc                SystemInit
  .text.SERCOM0_Handler
-                0x0000000000003704       0x10 ./core.a(variant.cpp.o)
-                0x0000000000003704                SERCOM0_Handler
+                0x0000000000003a64       0x10 ./core.a(variant.cpp.o)
+                0x0000000000003a64                SERCOM0_Handler
  .text.SERCOM5_Handler
-                0x0000000000003714       0x10 ./core.a(variant.cpp.o)
-                0x0000000000003714                SERCOM5_Handler
+                0x0000000000003a74       0x10 ./core.a(variant.cpp.o)
+                0x0000000000003a74                SERCOM5_Handler
  .text.startup._GLOBAL__sub_I_g_APinDescription
-                0x0000000000003724       0x94 ./core.a(variant.cpp.o)
- .text.delay    0x00000000000037b8       0x20 ./core.a(delay.c.o)
-                0x00000000000037b8                delay
+                0x0000000000003a84       0x94 ./core.a(variant.cpp.o)
+ .text.delay    0x0000000000003b18       0x20 ./core.a(delay.c.o)
+                0x0000000000003b18                delay
  .text.SysTick_DefaultHandler
-                0x00000000000037d8       0x14 ./core.a(delay.c.o)
-                0x00000000000037d8                SysTick_DefaultHandler
+                0x0000000000003b38       0x14 ./core.a(delay.c.o)
+                0x0000000000003b38                SysTick_DefaultHandler
  .text._ZL5utox8mPc
-                0x00000000000037ec       0x1c ./core.a(USBCore.cpp.o)
+                0x0000000000003b4c       0x1c ./core.a(USBCore.cpp.o)
  .text._ZN14USBDeviceClass6initEPEmm.part.4
-                0x0000000000003808       0xc8 ./core.a(USBCore.cpp.o)
+                0x0000000000003b68       0xc8 ./core.a(USBCore.cpp.o)
  .text._ZN20USBDevice_SAMD21G18x5resetEv
-                0x00000000000038d0       0x28 ./core.a(USBCore.cpp.o)
-                0x00000000000038d0                USBDevice_SAMD21G18x::reset()
+                0x0000000000003c30       0x28 ./core.a(USBCore.cpp.o)
+                0x0000000000003c30                USBDevice_SAMD21G18x::reset()
  .text._ZN20USBDevice_SAMD21G18x9calibrateEv
-                0x00000000000038f8       0x5c ./core.a(USBCore.cpp.o)
-                0x00000000000038f8                USBDevice_SAMD21G18x::calibrate()
+                0x0000000000003c58       0x5c ./core.a(USBCore.cpp.o)
+                0x0000000000003c58                USBDevice_SAMD21G18x::calibrate()
  .text._ZN7__GuardC2Ev
-                0x0000000000003954        0xe ./core.a(USBCore.cpp.o)
-                0x0000000000003954                __Guard::__Guard()
-                0x0000000000003954                __Guard::__Guard()
+                0x0000000000003cb4        0xe ./core.a(USBCore.cpp.o)
+                0x0000000000003cb4                __Guard::__Guard()
+                0x0000000000003cb4                __Guard::__Guard()
  .text._ZN7__GuardD2Ev
-                0x0000000000003962        0xe ./core.a(USBCore.cpp.o)
-                0x0000000000003962                __Guard::~__Guard()
-                0x0000000000003962                __Guard::~__Guard()
+                0x0000000000003cc2        0xe ./core.a(USBCore.cpp.o)
+                0x0000000000003cc2                __Guard::~__Guard()
+                0x0000000000003cc2                __Guard::~__Guard()
  .text._ZNK26DoubleBufferedEPOutHandler9availableEv
-                0x0000000000003970       0x5e ./core.a(USBCore.cpp.o)
-                0x0000000000003970                DoubleBufferedEPOutHandler::available() const
- *fill*         0x00000000000039ce        0x2 
+                0x0000000000003cd0       0x5e ./core.a(USBCore.cpp.o)
+                0x0000000000003cd0                DoubleBufferedEPOutHandler::available() const
+ *fill*         0x0000000000003d2e        0x2 
  .text._ZN26DoubleBufferedEPOutHandler7releaseEv
-                0x00000000000039d0       0x58 ./core.a(USBCore.cpp.o)
-                0x00000000000039d0                DoubleBufferedEPOutHandler::release()
+                0x0000000000003d30       0x58 ./core.a(USBCore.cpp.o)
+                0x0000000000003d30                DoubleBufferedEPOutHandler::release()
  .text._ZN26DoubleBufferedEPOutHandler4recvEPvm
-                0x0000000000003a28      0x11c ./core.a(USBCore.cpp.o)
-                0x0000000000003a28                DoubleBufferedEPOutHandler::recv(void*, unsigned long)
+                0x0000000000003d88      0x11c ./core.a(USBCore.cpp.o)
+                0x0000000000003d88                DoubleBufferedEPOutHandler::recv(void*, unsigned long)
  .text._ZN26DoubleBufferedEPOutHandler14handleEndpointEv
-                0x0000000000003b44       0xc8 ./core.a(USBCore.cpp.o)
-                0x0000000000003b44                DoubleBufferedEPOutHandler::handleEndpoint()
+                0x0000000000003ea4       0xc8 ./core.a(USBCore.cpp.o)
+                0x0000000000003ea4                DoubleBufferedEPOutHandler::handleEndpoint()
  .text._ZN14USBDeviceClass14SendInterfacesEPm
-                0x0000000000003c0c       0x2c ./core.a(USBCore.cpp.o)
-                0x0000000000003c0c                USBDeviceClass::SendInterfaces(unsigned long*)
+                0x0000000000003f6c       0x2c ./core.a(USBCore.cpp.o)
+                0x0000000000003f6c                USBDeviceClass::SendInterfaces(unsigned long*)
  .text._ZN14USBDeviceClass14handleEndpointEh
-                0x0000000000003c38       0x40 ./core.a(USBCore.cpp.o)
-                0x0000000000003c38                USBDeviceClass::handleEndpoint(unsigned char)
+                0x0000000000003f98       0x40 ./core.a(USBCore.cpp.o)
+                0x0000000000003f98                USBDeviceClass::handleEndpoint(unsigned char)
  .text._ZN14USBDeviceClass4initEv
-                0x0000000000003c78       0xf0 ./core.a(USBCore.cpp.o)
-                0x0000000000003c78                USBDeviceClass::init()
+                0x0000000000003fd8       0xf0 ./core.a(USBCore.cpp.o)
+                0x0000000000003fd8                USBDeviceClass::init()
  .text._ZN14USBDeviceClass6attachEv
-                0x0000000000003d68       0x34 ./core.a(USBCore.cpp.o)
-                0x0000000000003d68                USBDeviceClass::attach()
+                0x00000000000040c8       0x34 ./core.a(USBCore.cpp.o)
+                0x00000000000040c8                USBDeviceClass::attach()
  .text._ZN14USBDeviceClass10setAddressEm
-                0x0000000000003d9c       0x48 ./core.a(USBCore.cpp.o)
-                0x0000000000003d9c                USBDeviceClass::setAddress(unsigned long)
+                0x00000000000040fc       0x48 ./core.a(USBCore.cpp.o)
+                0x00000000000040fc                USBDeviceClass::setAddress(unsigned long)
  .text._ZN14USBDeviceClass25handleClassInterfaceSetupER8USBSetup
-                0x0000000000003de4       0x40 ./core.a(USBCore.cpp.o)
-                0x0000000000003de4                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
+                0x0000000000004144       0x40 ./core.a(USBCore.cpp.o)
+                0x0000000000004144                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
  .text._ZN14USBDeviceClass6initEPEmm
-                0x0000000000003e24       0xf4 ./core.a(USBCore.cpp.o)
-                0x0000000000003e24                USBDeviceClass::initEP(unsigned long, unsigned long)
+                0x0000000000004184       0xf4 ./core.a(USBCore.cpp.o)
+                0x0000000000004184                USBDeviceClass::initEP(unsigned long, unsigned long)
  .text._ZN14USBDeviceClass13initEndpointsEv
-                0x0000000000003f18       0x24 ./core.a(USBCore.cpp.o)
-                0x0000000000003f18                USBDeviceClass::initEndpoints()
+                0x0000000000004278       0x24 ./core.a(USBCore.cpp.o)
+                0x0000000000004278                USBDeviceClass::initEndpoints()
  .text._ZN14USBDeviceClass9availableEm
-                0x0000000000003f3c       0x2c ./core.a(USBCore.cpp.o)
-                0x0000000000003f3c                USBDeviceClass::available(unsigned long)
+                0x000000000000429c       0x2c ./core.a(USBCore.cpp.o)
+                0x000000000000429c                USBDeviceClass::available(unsigned long)
  .text._ZN14USBDeviceClass5flushEm
-                0x0000000000003f68       0x2c ./core.a(USBCore.cpp.o)
-                0x0000000000003f68                USBDeviceClass::flush(unsigned long)
+                0x00000000000042c8       0x2c ./core.a(USBCore.cpp.o)
+                0x00000000000042c8                USBDeviceClass::flush(unsigned long)
  .text._ZN14USBDeviceClass14armRecvCtrlOUTEm
-                0x0000000000003f94       0x60 ./core.a(USBCore.cpp.o)
-                0x0000000000003f94                USBDeviceClass::armRecvCtrlOUT(unsigned long)
+                0x00000000000042f4       0x60 ./core.a(USBCore.cpp.o)
+                0x00000000000042f4                USBDeviceClass::armRecvCtrlOUT(unsigned long)
  .text._ZN14USBDeviceClass11recvControlEPvm
-                0x0000000000003ff4       0x3c ./core.a(USBCore.cpp.o)
-                0x0000000000003ff4                USBDeviceClass::recvControl(void*, unsigned long)
+                0x0000000000004354       0x3c ./core.a(USBCore.cpp.o)
+                0x0000000000004354                USBDeviceClass::recvControl(void*, unsigned long)
  .text._ZN14USBDeviceClass7armRecvEm
-                0x0000000000004030       0x3c ./core.a(USBCore.cpp.o)
-                0x0000000000004030                USBDeviceClass::armRecv(unsigned long)
+                0x0000000000004390       0x3c ./core.a(USBCore.cpp.o)
+                0x0000000000004390                USBDeviceClass::armRecv(unsigned long)
  .text._ZN14USBDeviceClass4recvEmPvm
-                0x000000000000406c       0xd8 ./core.a(USBCore.cpp.o)
-                0x000000000000406c                USBDeviceClass::recv(unsigned long, void*, unsigned long)
+                0x00000000000043cc       0xd8 ./core.a(USBCore.cpp.o)
+                0x00000000000043cc                USBDeviceClass::recv(unsigned long, void*, unsigned long)
  .text._ZN14USBDeviceClass4recvEm
-                0x0000000000004144       0x1c ./core.a(USBCore.cpp.o)
-                0x0000000000004144                USBDeviceClass::recv(unsigned long)
+                0x00000000000044a4       0x1c ./core.a(USBCore.cpp.o)
+                0x00000000000044a4                USBDeviceClass::recv(unsigned long)
  .text._ZN14USBDeviceClass4sendEmPKvm
-                0x0000000000004160      0x124 ./core.a(USBCore.cpp.o)
-                0x0000000000004160                USBDeviceClass::send(unsigned long, void const*, unsigned long)
+                0x00000000000044c0      0x124 ./core.a(USBCore.cpp.o)
+                0x00000000000044c0                USBDeviceClass::send(unsigned long, void const*, unsigned long)
  .text._ZN14USBDeviceClass7armSendEmPKvm
-                0x0000000000004284       0x48 ./core.a(USBCore.cpp.o)
-                0x0000000000004284                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
+                0x00000000000045e4       0x48 ./core.a(USBCore.cpp.o)
+                0x00000000000045e4                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
  .text._ZN14USBDeviceClass11sendControlEPKvm
-                0x00000000000042cc       0x58 ./core.a(USBCore.cpp.o)
-                0x00000000000042cc                USBDeviceClass::sendControl(void const*, unsigned long)
+                0x000000000000462c       0x58 ./core.a(USBCore.cpp.o)
+                0x000000000000462c                USBDeviceClass::sendControl(void const*, unsigned long)
  .text._ZN14USBDeviceClass20sendStringDescriptorEPKhh
-                0x0000000000004324       0x68 ./core.a(USBCore.cpp.o)
-                0x0000000000004324                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
+                0x0000000000004684       0x68 ./core.a(USBCore.cpp.o)
+                0x0000000000004684                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
  .text._ZN14USBDeviceClass12packMessagesEb.part.6
-                0x000000000000438c       0x20 ./core.a(USBCore.cpp.o)
+                0x00000000000046ec       0x20 ./core.a(USBCore.cpp.o)
  .text._ZN14USBDeviceClass17sendConfigurationEm
-                0x00000000000043ac       0x90 ./core.a(USBCore.cpp.o)
-                0x00000000000043ac                USBDeviceClass::sendConfiguration(unsigned long)
+                0x000000000000470c       0x90 ./core.a(USBCore.cpp.o)
+                0x000000000000470c                USBDeviceClass::sendConfiguration(unsigned long)
  .text._ZN14USBDeviceClass14sendDescriptorER8USBSetup
-                0x000000000000443c       0xec ./core.a(USBCore.cpp.o)
-                0x000000000000443c                USBDeviceClass::sendDescriptor(USBSetup&)
+                0x000000000000479c       0xec ./core.a(USBCore.cpp.o)
+                0x000000000000479c                USBDeviceClass::sendDescriptor(USBSetup&)
  .text._ZN14USBDeviceClass19handleStandardSetupER8USBSetup
-                0x0000000000004528      0x118 ./core.a(USBCore.cpp.o)
-                0x0000000000004528                USBDeviceClass::handleStandardSetup(USBSetup&)
+                0x0000000000004888      0x118 ./core.a(USBCore.cpp.o)
+                0x0000000000004888                USBDeviceClass::handleStandardSetup(USBSetup&)
  .text._ZN14USBDeviceClass10ISRHandlerEv
-                0x0000000000004640      0x150 ./core.a(USBCore.cpp.o)
-                0x0000000000004640                USBDeviceClass::ISRHandler()
+                0x00000000000049a0      0x150 ./core.a(USBCore.cpp.o)
+                0x00000000000049a0                USBDeviceClass::ISRHandler()
  .text.UDD_Handler
-                0x0000000000004790       0x10 ./core.a(USBCore.cpp.o)
-                0x0000000000004790                UDD_Handler
+                0x0000000000004af0       0x10 ./core.a(USBCore.cpp.o)
+                0x0000000000004af0                UDD_Handler
  .text.startup._GLOBAL__sub_I__ZN20USBDevice_SAMD21G18x5resetEv
-                0x00000000000047a0       0x10 ./core.a(USBCore.cpp.o)
+                0x0000000000004b00       0x10 ./core.a(USBCore.cpp.o)
  .text._ZN6SERCOMC2EP6Sercom
-                0x00000000000047b0        0x4 ./core.a(SERCOM.cpp.o)
-                0x00000000000047b0                SERCOM::SERCOM(Sercom*)
-                0x00000000000047b0                SERCOM::SERCOM(Sercom*)
+                0x0000000000004b10        0x4 ./core.a(SERCOM.cpp.o)
+                0x0000000000004b10                SERCOM::SERCOM(Sercom*)
+                0x0000000000004b10                SERCOM::SERCOM(Sercom*)
  .text._ZN6SERCOM9initFrameE18SercomUartCharSize15SercomDataOrder16SercomParityMode19SercomNumberStopBit
-                0x00000000000047b4       0x38 ./core.a(SERCOM.cpp.o)
-                0x00000000000047b4                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
+                0x0000000000004b14       0x38 ./core.a(SERCOM.cpp.o)
+                0x0000000000004b14                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
  .text._ZN6SERCOM8initPadsE15SercomUartTXPad11SercomRXPad
-                0x00000000000047ec       0x26 ./core.a(SERCOM.cpp.o)
-                0x00000000000047ec                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
+                0x0000000000004b4c       0x26 ./core.a(SERCOM.cpp.o)
+                0x0000000000004b4c                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
  .text._ZN6SERCOM9resetUARTEv
-                0x0000000000004812       0x1c ./core.a(SERCOM.cpp.o)
-                0x0000000000004812                SERCOM::resetUART()
+                0x0000000000004b72       0x1c ./core.a(SERCOM.cpp.o)
+                0x0000000000004b72                SERCOM::resetUART()
  .text._ZN6SERCOM10enableUARTEv
-                0x000000000000482e       0x14 ./core.a(SERCOM.cpp.o)
-                0x000000000000482e                SERCOM::enableUART()
+                0x0000000000004b8e       0x14 ./core.a(SERCOM.cpp.o)
+                0x0000000000004b8e                SERCOM::enableUART()
  .text._ZN6SERCOM9flushUARTEv
-                0x0000000000004842       0x10 ./core.a(SERCOM.cpp.o)
-                0x0000000000004842                SERCOM::flushUART()
+                0x0000000000004ba2       0x10 ./core.a(SERCOM.cpp.o)
+                0x0000000000004ba2                SERCOM::flushUART()
  .text._ZN6SERCOM15clearStatusUARTEv
-                0x0000000000004852        0x8 ./core.a(SERCOM.cpp.o)
-                0x0000000000004852                SERCOM::clearStatusUART()
+                0x0000000000004bb2        0x8 ./core.a(SERCOM.cpp.o)
+                0x0000000000004bb2                SERCOM::clearStatusUART()
  .text._ZN6SERCOM17availableDataUARTEv
-                0x000000000000485a        0xa ./core.a(SERCOM.cpp.o)
-                0x000000000000485a                SERCOM::availableDataUART()
+                0x0000000000004bba        0xa ./core.a(SERCOM.cpp.o)
+                0x0000000000004bba                SERCOM::availableDataUART()
  .text._ZN6SERCOM11isUARTErrorEv
-                0x0000000000004864        0x8 ./core.a(SERCOM.cpp.o)
-                0x0000000000004864                SERCOM::isUARTError()
+                0x0000000000004bc4        0x8 ./core.a(SERCOM.cpp.o)
+                0x0000000000004bc4                SERCOM::isUARTError()
  .text._ZN6SERCOM20acknowledgeUARTErrorEv
-                0x000000000000486c        0xe ./core.a(SERCOM.cpp.o)
-                0x000000000000486c                SERCOM::acknowledgeUARTError()
+                0x0000000000004bcc        0xe ./core.a(SERCOM.cpp.o)
+                0x0000000000004bcc                SERCOM::acknowledgeUARTError()
  .text._ZN6SERCOM23isDataRegisterEmptyUARTEv
-                0x000000000000487a        0xa ./core.a(SERCOM.cpp.o)
-                0x000000000000487a                SERCOM::isDataRegisterEmptyUART()
+                0x0000000000004bda        0xa ./core.a(SERCOM.cpp.o)
+                0x0000000000004bda                SERCOM::isDataRegisterEmptyUART()
  .text._ZN6SERCOM12readDataUARTEv
-                0x0000000000004884        0x8 ./core.a(SERCOM.cpp.o)
-                0x0000000000004884                SERCOM::readDataUART()
+                0x0000000000004be4        0x8 ./core.a(SERCOM.cpp.o)
+                0x0000000000004be4                SERCOM::readDataUART()
  .text._ZN6SERCOM13writeDataUARTEh
-                0x000000000000488c        0xe ./core.a(SERCOM.cpp.o)
-                0x000000000000488c                SERCOM::writeDataUART(unsigned char)
+                0x0000000000004bec        0xe ./core.a(SERCOM.cpp.o)
+                0x0000000000004bec                SERCOM::writeDataUART(unsigned char)
  .text._ZN6SERCOM36enableDataRegisterEmptyInterruptUARTEv
-                0x000000000000489a        0x8 ./core.a(SERCOM.cpp.o)
-                0x000000000000489a                SERCOM::enableDataRegisterEmptyInterruptUART()
+                0x0000000000004bfa        0x8 ./core.a(SERCOM.cpp.o)
+                0x0000000000004bfa                SERCOM::enableDataRegisterEmptyInterruptUART()
  .text._ZN6SERCOM37disableDataRegisterEmptyInterruptUARTEv
-                0x00000000000048a2        0x8 ./core.a(SERCOM.cpp.o)
-                0x00000000000048a2                SERCOM::disableDataRegisterEmptyInterruptUART()
- *fill*         0x00000000000048aa        0x2 
+                0x0000000000004c02        0x8 ./core.a(SERCOM.cpp.o)
+                0x0000000000004c02                SERCOM::disableDataRegisterEmptyInterruptUART()
+ *fill*         0x0000000000004c0a        0x2 
  .text._ZN6SERCOM13initClockNVICEv
-                0x00000000000048ac       0xac ./core.a(SERCOM.cpp.o)
-                0x00000000000048ac                SERCOM::initClockNVIC()
+                0x0000000000004c0c       0xac ./core.a(SERCOM.cpp.o)
+                0x0000000000004c0c                SERCOM::initClockNVIC()
  .text._ZN6SERCOM8initUARTE14SercomUartMode20SercomUartSampleRatem
-                0x0000000000004958       0x6c ./core.a(SERCOM.cpp.o)
-                0x0000000000004958                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
+                0x0000000000004cb8       0x6c ./core.a(SERCOM.cpp.o)
+                0x0000000000004cb8                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
  .text.initiateReset
-                0x00000000000049c4        0xc ./core.a(Reset.cpp.o)
-                0x00000000000049c4                initiateReset
+                0x0000000000004d24        0xc ./core.a(Reset.cpp.o)
+                0x0000000000004d24                initiateReset
  .text.cancelReset
-                0x00000000000049d0       0x10 ./core.a(Reset.cpp.o)
-                0x00000000000049d0                cancelReset
+                0x0000000000004d30       0x10 ./core.a(Reset.cpp.o)
+                0x0000000000004d30                cancelReset
  .text.tickReset
-                0x00000000000049e0       0x74 ./core.a(Reset.cpp.o)
-                0x00000000000049e0                tickReset
- .text._Znwj    0x0000000000004a54        0x8 ./core.a(new.cpp.o)
-                0x0000000000004a54                operator new(unsigned int)
+                0x0000000000004d40       0x74 ./core.a(Reset.cpp.o)
+                0x0000000000004d40                tickReset
+ .text._Znwj    0x0000000000004db4        0x8 ./core.a(new.cpp.o)
+                0x0000000000004db4                operator new(unsigned int)
  .text._ZN13PluggableUSB_12getInterfaceEPh
-                0x0000000000004a5c       0x2a ./core.a(PluggableUSB.cpp.o)
-                0x0000000000004a5c                PluggableUSB_::getInterface(unsigned char*)
+                0x0000000000004dbc       0x2a ./core.a(PluggableUSB.cpp.o)
+                0x0000000000004dbc                PluggableUSB_::getInterface(unsigned char*)
  .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
-                0x0000000000004a86       0x20 ./core.a(PluggableUSB.cpp.o)
-                0x0000000000004a86                PluggableUSB_::getDescriptor(USBSetup&)
+                0x0000000000004de6       0x20 ./core.a(PluggableUSB.cpp.o)
+                0x0000000000004de6                PluggableUSB_::getDescriptor(USBSetup&)
  .text._ZN13PluggableUSB_12getShortNameEPc
-                0x0000000000004aa6       0x1e ./core.a(PluggableUSB.cpp.o)
-                0x0000000000004aa6                PluggableUSB_::getShortName(char*)
+                0x0000000000004e06       0x1e ./core.a(PluggableUSB.cpp.o)
+                0x0000000000004e06                PluggableUSB_::getShortName(char*)
  .text._ZN13PluggableUSB_5setupER8USBSetup
-                0x0000000000004ac4       0x24 ./core.a(PluggableUSB.cpp.o)
-                0x0000000000004ac4                PluggableUSB_::setup(USBSetup&)
+                0x0000000000004e24       0x24 ./core.a(PluggableUSB.cpp.o)
+                0x0000000000004e24                PluggableUSB_::setup(USBSetup&)
  .text._Z12PluggableUSBv
-                0x0000000000004ae8       0x24 ./core.a(PluggableUSB.cpp.o)
-                0x0000000000004ae8                PluggableUSB()
+                0x0000000000004e48       0x24 ./core.a(PluggableUSB.cpp.o)
+                0x0000000000004e48                PluggableUSB()
  .text._ZN7Serial_17availableForWriteEv
-                0x0000000000004b0c        0x4 ./core.a(CDC.cpp.o)
-                0x0000000000004b0c                Serial_::availableForWrite()
+                0x0000000000004e6c        0x4 ./core.a(CDC.cpp.o)
+                0x0000000000004e6c                Serial_::availableForWrite()
  .text._ZN7Serial_5writeEh
-                0x0000000000004b10       0x14 ./core.a(CDC.cpp.o)
-                0x0000000000004b10                Serial_::write(unsigned char)
+                0x0000000000004e70       0x14 ./core.a(CDC.cpp.o)
+                0x0000000000004e70                Serial_::write(unsigned char)
  .text._ZN7Serial_9availableEv
-                0x0000000000004b24        0xc ./core.a(CDC.cpp.o)
-                0x0000000000004b24                Serial_::available()
+                0x0000000000004e84        0xc ./core.a(CDC.cpp.o)
+                0x0000000000004e84                Serial_::available()
  .text._ZN7Serial_5flushEv
-                0x0000000000004b30        0xc ./core.a(CDC.cpp.o)
-                0x0000000000004b30                Serial_::flush()
+                0x0000000000004e90        0xc ./core.a(CDC.cpp.o)
+                0x0000000000004e90                Serial_::flush()
  .text._ZN7Serial_5writeEPKhj
-                0x0000000000004b3c       0x1c ./core.a(CDC.cpp.o)
-                0x0000000000004b3c                Serial_::write(unsigned char const*, unsigned int)
+                0x0000000000004e9c       0x1c ./core.a(CDC.cpp.o)
+                0x0000000000004e9c                Serial_::write(unsigned char const*, unsigned int)
  .text._ZN7Serial_4peekEv
-                0x0000000000004b58       0x1c ./core.a(CDC.cpp.o)
-                0x0000000000004b58                Serial_::peek()
+                0x0000000000004eb8       0x1c ./core.a(CDC.cpp.o)
+                0x0000000000004eb8                Serial_::peek()
  .text._ZN7Serial_4readEv
-                0x0000000000004b74       0x24 ./core.a(CDC.cpp.o)
-                0x0000000000004b74                Serial_::read()
+                0x0000000000004ed4       0x24 ./core.a(CDC.cpp.o)
+                0x0000000000004ed4                Serial_::read()
  .text._Z16CDC_GetInterfacePh
-                0x0000000000004b98       0x1c ./core.a(CDC.cpp.o)
-                0x0000000000004b98                CDC_GetInterface(unsigned char*)
+                0x0000000000004ef8       0x1c ./core.a(CDC.cpp.o)
+                0x0000000000004ef8                CDC_GetInterface(unsigned char*)
  .text._Z9CDC_SetupR8USBSetup
-                0x0000000000004bb4       0x80 ./core.a(CDC.cpp.o)
-                0x0000000000004bb4                CDC_Setup(USBSetup&)
+                0x0000000000004f14       0x80 ./core.a(CDC.cpp.o)
+                0x0000000000004f14                CDC_Setup(USBSetup&)
  .text.startup._GLOBAL__sub_I__Z17_CDC_GetInterfacev
-                0x0000000000004c34       0x28 ./core.a(CDC.cpp.o)
+                0x0000000000004f94       0x28 ./core.a(CDC.cpp.o)
  .text.__fpclassifyd
-                0x0000000000004c5c       0x60 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
-                0x0000000000004c5c                __fpclassifyd
- .text          0x0000000000004cbc       0x14 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
-                0x0000000000004cbc                __gnu_thumb1_case_uqi
- .text          0x0000000000004cd0       0x9c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
-                0x0000000000004cd0                __udivsi3
-                0x0000000000004cd0                __aeabi_uidiv
-                0x0000000000004d58                __aeabi_uidivmod
- .text          0x0000000000004d6c        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
-                0x0000000000004d6c                __aeabi_ldiv0
-                0x0000000000004d6c                __aeabi_idiv0
- .text          0x0000000000004d70       0x7c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
-                0x0000000000004d70                __aeabi_cdrcmple
-                0x0000000000004d80                __aeabi_cdcmple
-                0x0000000000004d80                __aeabi_cdcmpeq
-                0x0000000000004d90                __aeabi_dcmpeq
-                0x0000000000004d9c                __aeabi_dcmplt
-                0x0000000000004db0                __aeabi_dcmple
-                0x0000000000004dc4                __aeabi_dcmpgt
-                0x0000000000004dd8                __aeabi_dcmpge
- .text          0x0000000000004dec       0x74 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
-                0x0000000000004dec                __aeabi_cfrcmple
-                0x0000000000004df4                __aeabi_cfcmple
-                0x0000000000004df4                __aeabi_cfcmpeq
-                0x0000000000004e04                __aeabi_fcmpeq
-                0x0000000000004e10                __aeabi_fcmplt
-                0x0000000000004e24                __aeabi_fcmple
-                0x0000000000004e38                __aeabi_fcmpgt
-                0x0000000000004e4c                __aeabi_fcmpge
- .text          0x0000000000004e60       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
-                0x0000000000004e60                __fixunsdfsi
-                0x0000000000004e60                __aeabi_d2uiz
- .text          0x0000000000004ea0       0x54 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
-                0x0000000000004ea0                __nesf2
-                0x0000000000004ea0                __eqsf2
- .text          0x0000000000004ef4       0x90 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
-                0x0000000000004ef4                __gtsf2
-                0x0000000000004ef4                __gesf2
- .text          0x0000000000004f84       0x98 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
-                0x0000000000004f84                __lesf2
-                0x0000000000004f84                __ltsf2
- .text          0x000000000000501c       0xa0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
-                0x000000000000501c                __aeabi_ui2f
- .text          0x00000000000050bc      0x638 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
-                0x00000000000050bc                __aeabi_dadd
- .text          0x00000000000056f4      0x648 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
-                0x00000000000056f4                __aeabi_ddiv
- .text          0x0000000000005d3c       0x94 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
-                0x0000000000005d3c                __eqdf2
-                0x0000000000005d3c                __nedf2
- .text          0x0000000000005dd0       0xfc /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
-                0x0000000000005dd0                __gtdf2
-                0x0000000000005dd0                __gedf2
- .text          0x0000000000005ecc       0xfc /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
-                0x0000000000005ecc                __ltdf2
-                0x0000000000005ecc                __ledf2
- .text          0x0000000000005fc8      0x520 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
-                0x0000000000005fc8                __aeabi_dmul
- .text          0x00000000000064e8      0x654 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
-                0x00000000000064e8                __aeabi_dsub
- .text          0x0000000000006b3c       0x68 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
-                0x0000000000006b3c                __aeabi_d2iz
- .text          0x0000000000006ba4       0x68 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
-                0x0000000000006ba4                __aeabi_ui2d
- .text          0x0000000000006c0c       0xa4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
-                0x0000000000006c0c                __aeabi_f2d
- .text          0x0000000000006cb0       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_clzsi2.o)
-                0x0000000000006cb0                __clzsi2
+                0x0000000000004fbc       0x60 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+                0x0000000000004fbc                __fpclassifyd
+ .text          0x000000000000501c       0x14 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x000000000000501c                __gnu_thumb1_case_uqi
+ .text          0x0000000000005030       0x9c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x0000000000005030                __udivsi3
+                0x0000000000005030                __aeabi_uidiv
+                0x00000000000050b8                __aeabi_uidivmod
+ .text          0x00000000000050cc        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x00000000000050cc                __aeabi_ldiv0
+                0x00000000000050cc                __aeabi_idiv0
+ .text          0x00000000000050d0       0x7c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x00000000000050d0                __aeabi_cdrcmple
+                0x00000000000050e0                __aeabi_cdcmple
+                0x00000000000050e0                __aeabi_cdcmpeq
+                0x00000000000050f0                __aeabi_dcmpeq
+                0x00000000000050fc                __aeabi_dcmplt
+                0x0000000000005110                __aeabi_dcmple
+                0x0000000000005124                __aeabi_dcmpgt
+                0x0000000000005138                __aeabi_dcmpge
+ .text          0x000000000000514c       0x74 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                0x000000000000514c                __aeabi_cfrcmple
+                0x0000000000005154                __aeabi_cfcmple
+                0x0000000000005154                __aeabi_cfcmpeq
+                0x0000000000005164                __aeabi_fcmpeq
+                0x0000000000005170                __aeabi_fcmplt
+                0x0000000000005184                __aeabi_fcmple
+                0x0000000000005198                __aeabi_fcmpgt
+                0x00000000000051ac                __aeabi_fcmpge
+ .text          0x00000000000051c0       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+                0x00000000000051c0                __fixunsdfsi
+                0x00000000000051c0                __aeabi_d2uiz
+ .text          0x0000000000005200       0x54 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
+                0x0000000000005200                __nesf2
+                0x0000000000005200                __eqsf2
+ .text          0x0000000000005254       0x90 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
+                0x0000000000005254                __gtsf2
+                0x0000000000005254                __gesf2
+ .text          0x00000000000052e4       0x98 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
+                0x00000000000052e4                __lesf2
+                0x00000000000052e4                __ltsf2
+ .text          0x000000000000537c       0xa0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
+                0x000000000000537c                __aeabi_ui2f
+ .text          0x000000000000541c      0x638 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
+                0x000000000000541c                __aeabi_dadd
+ .text          0x0000000000005a54      0x648 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
+                0x0000000000005a54                __aeabi_ddiv
+ .text          0x000000000000609c       0x94 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
+                0x000000000000609c                __eqdf2
+                0x000000000000609c                __nedf2
+ .text          0x0000000000006130       0xfc /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
+                0x0000000000006130                __gtdf2
+                0x0000000000006130                __gedf2
+ .text          0x000000000000622c       0xfc /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
+                0x000000000000622c                __ltdf2
+                0x000000000000622c                __ledf2
+ .text          0x0000000000006328      0x520 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
+                0x0000000000006328                __aeabi_dmul
+ .text          0x0000000000006848      0x654 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
+                0x0000000000006848                __aeabi_dsub
+ .text          0x0000000000006e9c       0x68 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
+                0x0000000000006e9c                __aeabi_d2iz
+ .text          0x0000000000006f04       0x68 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
+                0x0000000000006f04                __aeabi_ui2d
+ .text          0x0000000000006f6c       0xa4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
+                0x0000000000006f6c                __aeabi_f2d
+ .text          0x0000000000007010       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_clzsi2.o)
+                0x0000000000007010                __clzsi2
  .text.__aeabi_atexit
-                0x0000000000006cec        0xe /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
-                0x0000000000006cec                __aeabi_atexit
- *fill*         0x0000000000006cfa        0x2 
+                0x000000000000704c        0xe /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
+                0x000000000000704c                __aeabi_atexit
+ *fill*         0x000000000000705a        0x2 
  .text.__cxa_atexit
-                0x0000000000006cfc       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
-                0x0000000000006cfc                __cxa_atexit
+                0x000000000000705c       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
+                0x000000000000705c                __cxa_atexit
  .text.__libc_init_array
-                0x0000000000006d1c       0x4c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
-                0x0000000000006d1c                __libc_init_array
- .text.malloc   0x0000000000006d68       0x14 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
-                0x0000000000006d68                malloc
- .text.memcpy   0x0000000000006d7c       0x12 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
-                0x0000000000006d7c                memcpy
- .text.memset   0x0000000000006d8e       0x10 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
-                0x0000000000006d8e                memset
- *fill*         0x0000000000006d9e        0x2 
+                0x000000000000707c       0x4c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
+                0x000000000000707c                __libc_init_array
+ .text.malloc   0x00000000000070c8       0x14 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
+                0x00000000000070c8                malloc
+ .text.memcpy   0x00000000000070dc       0x12 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
+                0x00000000000070dc                memcpy
+ .text.memset   0x00000000000070ee       0x10 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
+                0x00000000000070ee                memset
+ *fill*         0x00000000000070fe        0x2 
  .text._malloc_r
-                0x0000000000006da0       0xa8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
-                0x0000000000006da0                _malloc_r
- .text._sbrk_r  0x0000000000006e48       0x24 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
-                0x0000000000006e48                _sbrk_r
- .text.strlen   0x0000000000006e6c        0xe /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
-                0x0000000000006e6c                strlen
- *fill*         0x0000000000006e7a        0x2 
- .text._sbrk    0x0000000000006e7c       0x34 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
-                0x0000000000006e7c                _sbrk
+                0x0000000000007100       0xa8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
+                0x0000000000007100                _malloc_r
+ .text._sbrk_r  0x00000000000071a8       0x24 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
+                0x00000000000071a8                _sbrk_r
+ .text.strlen   0x00000000000071cc        0xe /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
+                0x00000000000071cc                strlen
+ *fill*         0x00000000000071da        0x2 
+ .text._sbrk    0x00000000000071dc       0x34 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+                0x00000000000071dc                _sbrk
  *(.init)
- .init          0x0000000000006eb0        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
-                0x0000000000006eb0                _init
- .init          0x0000000000006eb4        0x8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+ .init          0x0000000000007210        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
+                0x0000000000007210                _init
+ .init          0x0000000000007214        0x8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
  *(.fini)
- .fini          0x0000000000006ebc        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
-                0x0000000000006ebc                _fini
- .fini          0x0000000000006ec0        0x8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+ .fini          0x000000000000721c        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
+                0x000000000000721c                _fini
+ .fini          0x0000000000007220        0x8 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1287,71 +1391,75 @@ LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
+ .rodata._ZTV13LiquidCrystal
+                0x0000000000007228       0x18 project/LiquidCrystal.cpp.o
+                0x0000000000007228                vtable for LiquidCrystal
  .rodata._ZTV14SoftwareSerial
-                0x0000000000006ec8       0x28 project/SoftwareSerial.cpp.o
-                0x0000000000006ec8                vtable for SoftwareSerial
+                0x0000000000007240       0x28 project/SoftwareSerial.cpp.o
+                0x0000000000007240                vtable for SoftwareSerial
  .rodata.str1.1
-                0x0000000000006ef0       0x59 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000000007268       0x85 project/fall2018HearingCarMainCode.cpp.o
  .rodata.str1.1
-                0x0000000000006f49        0xf ./core.a(Print.cpp.o)
+                0x00000000000072ed        0xf ./core.a(Print.cpp.o)
+ *fill*         0x00000000000072fc        0x4 
  .rodata._ZTV4Uart
-                0x0000000000006f58       0x38 ./core.a(Uart.cpp.o)
-                0x0000000000006f58                vtable for Uart
+                0x0000000000007300       0x38 ./core.a(Uart.cpp.o)
+                0x0000000000007300                vtable for Uart
  .rodata.g_APinDescription
-                0x0000000000006f90      0x420 ./core.a(variant.cpp.o)
-                0x0000000000006f90                g_APinDescription
+                0x0000000000007338      0x420 ./core.a(variant.cpp.o)
+                0x0000000000007338                g_APinDescription
  .rodata._ZTV26DoubleBufferedEPOutHandler
-                0x00000000000073b0       0x18 ./core.a(USBCore.cpp.o)
-                0x00000000000073b0                vtable for DoubleBufferedEPOutHandler
+                0x0000000000007758       0x18 ./core.a(USBCore.cpp.o)
+                0x0000000000007758                vtable for DoubleBufferedEPOutHandler
  .rodata._ZL19STRING_MANUFACTURER
-                0x00000000000073c8        0xc ./core.a(USBCore.cpp.o)
+                0x0000000000007770        0xc ./core.a(USBCore.cpp.o)
  .rodata._ZL15STRING_LANGUAGE
-                0x00000000000073d4        0x4 ./core.a(USBCore.cpp.o)
+                0x000000000000777c        0x4 ./core.a(USBCore.cpp.o)
  .rodata._ZL21USB_DeviceDescriptorB
-                0x00000000000073d8       0x12 ./core.a(USBCore.cpp.o)
+                0x0000000000007780       0x12 ./core.a(USBCore.cpp.o)
  .rodata._ZL14STRING_PRODUCT
-                0x00000000000073ea        0xd ./core.a(USBCore.cpp.o)
- *fill*         0x00000000000073f7        0x1 
+                0x0000000000007792        0xd ./core.a(USBCore.cpp.o)
+ *fill*         0x000000000000779f        0x1 
  .rodata._ZTV7Serial_
-                0x00000000000073f8       0x28 ./core.a(CDC.cpp.o)
-                0x00000000000073f8                vtable for Serial_
- .rodata        0x0000000000007420       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
- .rodata        0x0000000000007460       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
+                0x00000000000077a0       0x28 ./core.a(CDC.cpp.o)
+                0x00000000000077a0                vtable for Serial_
+ .rodata        0x00000000000077c8       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
+ .rodata        0x0000000000007808       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
  .rodata.str1.1
-                0x00000000000074a0        0x2 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
+                0x0000000000007848        0x2 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
  *(.eh_frame*)
- *fill*         0x00000000000074a2        0x2 
- .eh_frame      0x00000000000074a4        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .eh_frame      0x00000000000074a4        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
+ *fill*         0x000000000000784a        0x2 
+ .eh_frame      0x000000000000784c        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
+ .eh_frame      0x000000000000784c        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
 
-.glue_7         0x00000000000074a8        0x0
+.glue_7         0x0000000000007850        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x00000000000074a8        0x0
+.glue_7t        0x0000000000007850        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000074a8        0x0
+.vfp11_veneer   0x0000000000007850        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x00000000000074a8        0x0
+.v4_bx          0x0000000000007850        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x00000000000074a8        0x0
+.iplt           0x0000000000007850        0x0
  .iplt          0x0000000000000000        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
-.rel.dyn        0x00000000000074a8        0x0
+.rel.dyn        0x0000000000007850        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000000074a8                __exidx_start = .
+                0x0000000000007850                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000000074a8                __exidx_end = .
-                0x00000000000074a8                __etext = .
+                0x0000000000007850                __exidx_end = .
+                0x0000000000007850                __etext = .
 
-.data           0x0000000020000000      0x120 load address 0x00000000000074a8
+.data           0x0000000020000000      0x120 load address 0x0000000000007850
                 0x0000000020000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1360,66 +1468,69 @@ LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4
  .data.rightPin
                 0x0000000020000004        0x4 project/fall2018HearingCarMainCode.cpp.o
                 0x0000000020000004                rightPin
- .data.leftPin  0x0000000020000008        0x4 project/fall2018HearingCarMainCode.cpp.o
-                0x0000000020000008                leftPin
+ .data.frequencyPin
+                0x0000000020000008        0x4 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000020000008                frequencyPin
+ .data.leftPin  0x000000002000000c        0x4 project/fall2018HearingCarMainCode.cpp.o
+                0x000000002000000c                leftPin
  .data.SystemCoreClock
-                0x000000002000000c        0x4 ./core.a(wiring.c.o)
-                0x000000002000000c                SystemCoreClock
+                0x0000000020000010        0x4 ./core.a(wiring.c.o)
+                0x0000000020000010                SystemCoreClock
  .data._ADCResolution
-                0x0000000020000010        0x4 ./core.a(wiring_analog.c.o)
- .data._readResolution
                 0x0000000020000014        0x4 ./core.a(wiring_analog.c.o)
+ .data._readResolution
+                0x0000000020000018        0x4 ./core.a(wiring_analog.c.o)
  .data.EndPoints
-                0x0000000020000018       0x28 ./core.a(USBCore.cpp.o)
-                0x0000000020000018                EndPoints
+                0x000000002000001c       0x28 ./core.a(USBCore.cpp.o)
+                0x000000002000001c                EndPoints
  .data._ZL5ticks
-                0x0000000020000040        0x4 ./core.a(Reset.cpp.o)
+                0x0000000020000044        0x4 ./core.a(Reset.cpp.o)
  .data._ZL12_usbLineInfo
-                0x0000000020000044        0x8 ./core.a(CDC.cpp.o)
+                0x0000000020000048        0x8 ./core.a(CDC.cpp.o)
  .data._ZL10breakValue
-                0x000000002000004c        0x4 ./core.a(CDC.cpp.o)
+                0x0000000020000050        0x4 ./core.a(CDC.cpp.o)
  .data._ZL13_cdcInterface
-                0x0000000020000050       0x42 ./core.a(CDC.cpp.o)
- *fill*         0x0000000020000092        0x2 
+                0x0000000020000054       0x42 ./core.a(CDC.cpp.o)
+ *fill*         0x0000000020000096        0x2 
  .data._serialPeek
-                0x0000000020000094        0x4 ./core.a(CDC.cpp.o)
-                0x0000000020000094                _serialPeek
+                0x0000000020000098        0x4 ./core.a(CDC.cpp.o)
+                0x0000000020000098                _serialPeek
  .data.impure_data
-                0x0000000020000098       0x60 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
+                0x000000002000009c       0x60 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
  .data._impure_ptr
-                0x00000000200000f8        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
-                0x00000000200000f8                _impure_ptr
-                0x00000000200000fc                . = ALIGN (0x4)
-                0x00000000200000fc                PROVIDE (__preinit_array_start, .)
+                0x00000000200000fc        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
+                0x00000000200000fc                _impure_ptr
+                0x0000000020000100                . = ALIGN (0x4)
+                0x0000000020000100                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x00000000200000fc                PROVIDE (__preinit_array_end, .)
-                0x00000000200000fc                . = ALIGN (0x4)
-                0x00000000200000fc                PROVIDE (__init_array_start, .)
+                0x0000000020000100                PROVIDE (__preinit_array_end, .)
+                0x0000000020000100                . = ALIGN (0x4)
+                0x0000000020000100                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00000000200000fc        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .init_array    0x0000000020000100        0x4 project/fall2018HearingCarMainCode.cpp.o
- .init_array    0x0000000020000104        0x4 ./core.a(variant.cpp.o)
- .init_array    0x0000000020000108        0x4 ./core.a(USBCore.cpp.o)
- .init_array    0x000000002000010c        0x4 ./core.a(CDC.cpp.o)
-                0x0000000020000110                PROVIDE (__init_array_end, .)
-                0x0000000020000110                . = ALIGN (0x4)
-                0x0000000020000110                PROVIDE (__fini_array_start, .)
+ .init_array    0x0000000020000100        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
+ .init_array    0x0000000020000104        0x4 project/fall2018HearingCarMainCode.cpp.o
+ .init_array    0x0000000020000108        0x4 ./core.a(variant.cpp.o)
+ .init_array    0x000000002000010c        0x4 ./core.a(USBCore.cpp.o)
+ .init_array    0x0000000020000110        0x4 ./core.a(CDC.cpp.o)
+                0x0000000020000114                PROVIDE (__init_array_end, .)
+                0x0000000020000114                . = ALIGN (0x4)
+                0x0000000020000114                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
- .fini_array    0x0000000020000110        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
-                0x0000000020000114                PROVIDE (__fini_array_end, .)
+ .fini_array    0x0000000020000114        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
+                0x0000000020000118                PROVIDE (__fini_array_end, .)
  *(.jcr*)
- .jcr           0x0000000020000114        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .jcr           0x0000000020000114        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
+ .jcr           0x0000000020000118        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
+ .jcr           0x0000000020000118        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
                 0x0000000020000120                . = ALIGN (0x10)
- *fill*         0x0000000020000118        0x8 
+ *fill*         0x000000002000011c        0x4 
                 0x0000000020000120                __data_end__ = .
 
-.igot.plt       0x0000000020000120        0x0 load address 0x00000000000075c8
+.igot.plt       0x0000000020000120        0x0 load address 0x0000000000007970
  .igot.plt      0x0000000000000000        0x0 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
-.bss            0x0000000020000120      0x9b8 load address 0x00000000000075c8
+.bss            0x0000000020000120      0x9d0 load address 0x0000000000007970
                 0x0000000020000120                . = ALIGN (0x4)
                 0x0000000020000120                __bss_start__ = .
  *(.bss*)
@@ -1483,107 +1594,106 @@ LOAD /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4
                 0x000000002000026c                frequency
  .bss.meter     0x0000000020000270       0x14 project/fall2018HearingCarMainCode.cpp.o
                 0x0000000020000270                meter
- .bss.frequencyPin
-                0x0000000020000284        0x4 project/fall2018HearingCarMainCode.cpp.o
-                0x0000000020000284                frequencyPin
- .bss.mySerial  0x0000000020000288       0x30 project/fall2018HearingCarMainCode.cpp.o
-                0x0000000020000288                mySerial
+ .bss.mySerial  0x0000000020000284       0x30 project/fall2018HearingCarMainCode.cpp.o
+                0x0000000020000284                mySerial
  .bss.rightSound
-                0x00000000200002b8        0x4 project/fall2018HearingCarMainCode.cpp.o
-                0x00000000200002b8                rightSound
- .bss.usb_isr   0x00000000200002bc        0x4 ./core.a(cortex_handlers.c.o)
+                0x00000000200002b4        0x4 project/fall2018HearingCarMainCode.cpp.o
+                0x00000000200002b4                rightSound
+ .bss.lcd       0x00000000200002b8       0x1c project/fall2018HearingCarMainCode.cpp.o
+                0x00000000200002b8                lcd
+ .bss.usb_isr   0x00000000200002d4        0x4 ./core.a(cortex_handlers.c.o)
  .bss.ISRcallback
-                0x00000000200002c0       0x44 ./core.a(WInterrupts.c.o)
- .bss.ISRlist   0x0000000020000304       0x44 ./core.a(WInterrupts.c.o)
- .bss.nints     0x0000000020000348        0x4 ./core.a(WInterrupts.c.o)
- .bss.Serial    0x000000002000034c       0xbc ./core.a(variant.cpp.o)
-                0x000000002000034c                Serial
- .bss.Serial1   0x0000000020000408       0xbc ./core.a(variant.cpp.o)
-                0x0000000020000408                Serial1
- .bss.sercom3   0x00000000200004c4        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004c4                sercom3
- .bss.sercom0   0x00000000200004c8        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004c8                sercom0
- .bss.sercom1   0x00000000200004cc        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004cc                sercom1
- .bss.sercom2   0x00000000200004d0        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004d0                sercom2
- .bss.sercom4   0x00000000200004d4        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004d4                sercom4
- .bss.sercom5   0x00000000200004d8        0x4 ./core.a(variant.cpp.o)
-                0x00000000200004d8                sercom5
+                0x00000000200002d8       0x44 ./core.a(WInterrupts.c.o)
+ .bss.ISRlist   0x000000002000031c       0x44 ./core.a(WInterrupts.c.o)
+ .bss.nints     0x0000000020000360        0x4 ./core.a(WInterrupts.c.o)
+ .bss.Serial    0x0000000020000364       0xbc ./core.a(variant.cpp.o)
+                0x0000000020000364                Serial
+ .bss.Serial1   0x0000000020000420       0xbc ./core.a(variant.cpp.o)
+                0x0000000020000420                Serial1
+ .bss.sercom3   0x00000000200004dc        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004dc                sercom3
+ .bss.sercom0   0x00000000200004e0        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004e0                sercom0
+ .bss.sercom1   0x00000000200004e4        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004e4                sercom1
+ .bss.sercom2   0x00000000200004e8        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004e8                sercom2
+ .bss.sercom4   0x00000000200004ec        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004ec                sercom4
+ .bss.sercom5   0x00000000200004f0        0x4 ./core.a(variant.cpp.o)
+                0x00000000200004f0                sercom5
  .bss._ulTickCount
-                0x00000000200004dc        0x4 ./core.a(delay.c.o)
+                0x00000000200004f4        0x4 ./core.a(delay.c.o)
  .bss._ZL14isEndpointHalt
-                0x00000000200004e0        0x1 ./core.a(USBCore.cpp.o)
+                0x00000000200004f8        0x1 ./core.a(USBCore.cpp.o)
  .bss._pack_buffer
-                0x00000000200004e1      0x100 ./core.a(USBCore.cpp.o)
-                0x00000000200004e1                _pack_buffer
- *fill*         0x00000000200005e1        0x1 
+                0x00000000200004f9      0x100 ./core.a(USBCore.cpp.o)
+                0x00000000200004f9                _pack_buffer
+ *fill*         0x00000000200005f9        0x1 
  .bss._pack_size
-                0x00000000200005e2        0x2 ./core.a(USBCore.cpp.o)
-                0x00000000200005e2                _pack_size
+                0x00000000200005fa        0x2 ./core.a(USBCore.cpp.o)
+                0x00000000200005fa                _pack_size
  .bss._ZL20LastTransmitTimedOut
-                0x00000000200005e4        0x7 ./core.a(USBCore.cpp.o)
- *fill*         0x00000000200005eb        0x1 
+                0x00000000200005fc        0x7 ./core.a(USBCore.cpp.o)
+ *fill*         0x0000000020000603        0x1 
  .bss._ZL22udd_ep_in_cache_buffer
-                0x00000000200005ec      0x1c0 ./core.a(USBCore.cpp.o)
+                0x0000000020000604      0x1c0 ./core.a(USBCore.cpp.o)
  .bss._ZL10txLEDPulse
-                0x00000000200007ac        0x1 ./core.a(USBCore.cpp.o)
- *fill*         0x00000000200007ad        0x3 
+                0x00000000200007c4        0x1 ./core.a(USBCore.cpp.o)
+ *fill*         0x00000000200007c5        0x3 
  .bss._ZL23udd_ep_out_cache_buffer
-                0x00000000200007b0      0x1c0 ./core.a(USBCore.cpp.o)
+                0x00000000200007c8      0x1c0 ./core.a(USBCore.cpp.o)
  .bss._ZL10epHandlers
-                0x0000000020000970       0x1c ./core.a(USBCore.cpp.o)
+                0x0000000020000988       0x1c ./core.a(USBCore.cpp.o)
  .bss._pack_message
-                0x000000002000098c        0x1 ./core.a(USBCore.cpp.o)
-                0x000000002000098c                _pack_message
+                0x00000000200009a4        0x1 ./core.a(USBCore.cpp.o)
+                0x00000000200009a4                _pack_message
  .bss._ZL21isRemoteWakeUpEnabled
-                0x000000002000098d        0x1 ./core.a(USBCore.cpp.o)
- .bss._dry_run  0x000000002000098e        0x1 ./core.a(USBCore.cpp.o)
-                0x000000002000098e                _dry_run
+                0x00000000200009a5        0x1 ./core.a(USBCore.cpp.o)
+ .bss._dry_run  0x00000000200009a6        0x1 ./core.a(USBCore.cpp.o)
+                0x00000000200009a6                _dry_run
  .bss.USBDevice
-                0x000000002000098f        0x1 ./core.a(USBCore.cpp.o)
-                0x000000002000098f                USBDevice
+                0x00000000200009a7        0x1 ./core.a(USBCore.cpp.o)
+                0x00000000200009a7                USBDevice
  .bss._usbSetInterface
-                0x0000000020000990        0x4 ./core.a(USBCore.cpp.o)
-                0x0000000020000990                _usbSetInterface
+                0x00000000200009a8        0x4 ./core.a(USBCore.cpp.o)
+                0x00000000200009a8                _usbSetInterface
  .bss._ZL10rxLEDPulse
-                0x0000000020000994        0x1 ./core.a(USBCore.cpp.o)
- *fill*         0x0000000020000995        0x3 
- .bss.usbd      0x0000000020000998      0x104 ./core.a(USBCore.cpp.o)
-                0x0000000020000998                usbd
+                0x00000000200009ac        0x1 ./core.a(USBCore.cpp.o)
+ *fill*         0x00000000200009ad        0x3 
+ .bss.usbd      0x00000000200009b0      0x104 ./core.a(USBCore.cpp.o)
+                0x00000000200009b0                usbd
  .bss._usbConfiguration
-                0x0000000020000a9c        0x4 ./core.a(USBCore.cpp.o)
-                0x0000000020000a9c                _usbConfiguration
+                0x0000000020000ab4        0x4 ./core.a(USBCore.cpp.o)
+                0x0000000020000ab4                _usbConfiguration
  .bss._ZZ12PluggableUSBvE3obj
-                0x0000000020000aa0        0x8 ./core.a(PluggableUSB.cpp.o)
+                0x0000000020000ab8        0x8 ./core.a(PluggableUSB.cpp.o)
  .bss._ZGVZ12PluggableUSBvE3obj
-                0x0000000020000aa8        0x4 ./core.a(PluggableUSB.cpp.o)
+                0x0000000020000ac0        0x4 ./core.a(PluggableUSB.cpp.o)
  .bss.SerialUSB
-                0x0000000020000aac       0x1c ./core.a(CDC.cpp.o)
-                0x0000000020000aac                SerialUSB
+                0x0000000020000ac4       0x1c ./core.a(CDC.cpp.o)
+                0x0000000020000ac4                SerialUSB
  .bss.__malloc_sbrk_start
-                0x0000000020000ac8        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
-                0x0000000020000ac8                __malloc_sbrk_start
+                0x0000000020000ae0        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
+                0x0000000020000ae0                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x0000000020000acc        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
-                0x0000000020000acc                __malloc_free_list
+                0x0000000020000ae4        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
+                0x0000000020000ae4                __malloc_free_list
  .bss.heap_end.4243
-                0x0000000020000ad0        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+                0x0000000020000ae8        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x0000000020000ad4        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
-                0x0000000020000ad4                errno
-                0x0000000020000ad8                . = ALIGN (0x4)
-                0x0000000020000ad8                __bss_end__ = .
+ COMMON         0x0000000020000aec        0x4 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
+                0x0000000020000aec                errno
+                0x0000000020000af0                . = ALIGN (0x4)
+                0x0000000020000af0                __bss_end__ = .
 
-.heap           0x0000000020000ad8        0x0
-                0x0000000020000ad8                __end__ = .
-                0x0000000020000ad8                PROVIDE (end, .)
+.heap           0x0000000020000af0        0x0
+                0x0000000020000af0                __end__ = .
+                0x0000000020000af0                PROVIDE (end, .)
  *(.heap*)
-                0x0000000020000ad8                __HeapLimit = .
+                0x0000000020000af0                __HeapLimit = .
 
-.stack_dummy    0x0000000020000ad8        0x0
+.stack_dummy    0x0000000020000af0        0x0
  *(.stack*)
                 0x0000000020008000                __StackTop = (ORIGIN (RAM) + 0x8000)
                 0x0000000020008000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
@@ -1601,123 +1711,126 @@ OUTPUT(./fall2018HearingCarMainCode.elf elf32-littlearm)
  .ARM.attributes
                 0x000000000000004a       0x32 project/AudioFrequencyMeter.cpp.o
  .ARM.attributes
-                0x000000000000007c       0x32 project/SoftwareSerial.cpp.o
+                0x000000000000007c       0x32 project/LiquidCrystal.cpp.o
  .ARM.attributes
-                0x00000000000000ae       0x32 project/fall2018HearingCarMainCode.cpp.o
+                0x00000000000000ae       0x32 project/SoftwareSerial.cpp.o
  .ARM.attributes
-                0x00000000000000e0       0x32 ./core.a(wiring.c.o)
+                0x00000000000000e0       0x32 project/fall2018HearingCarMainCode.cpp.o
  .ARM.attributes
-                0x0000000000000112       0x32 ./core.a(wiring_digital.c.o)
+                0x0000000000000112       0x32 ./core.a(wiring.c.o)
  .ARM.attributes
-                0x0000000000000144       0x32 ./core.a(Print.cpp.o)
+                0x0000000000000144       0x32 ./core.a(wiring_digital.c.o)
  .ARM.attributes
-                0x0000000000000176       0x32 ./core.a(cortex_handlers.c.o)
+                0x0000000000000176       0x32 ./core.a(Print.cpp.o)
  .ARM.attributes
-                0x00000000000001a8       0x32 ./core.a(wiring_private.c.o)
+                0x00000000000001a8       0x32 ./core.a(cortex_handlers.c.o)
  .ARM.attributes
-                0x00000000000001da       0x32 ./core.a(hooks.c.o)
+                0x00000000000001da       0x32 ./core.a(wiring_private.c.o)
  .ARM.attributes
-                0x000000000000020c       0x32 ./core.a(WInterrupts.c.o)
+                0x000000000000020c       0x32 ./core.a(hooks.c.o)
  .ARM.attributes
-                0x000000000000023e       0x32 ./core.a(Uart.cpp.o)
+                0x000000000000023e       0x32 ./core.a(WInterrupts.c.o)
  .ARM.attributes
-                0x0000000000000270       0x32 ./core.a(wiring_analog.c.o)
+                0x0000000000000270       0x32 ./core.a(Uart.cpp.o)
  .ARM.attributes
-                0x00000000000002a2       0x32 ./core.a(main.cpp.o)
+                0x00000000000002a2       0x32 ./core.a(wiring_analog.c.o)
  .ARM.attributes
-                0x00000000000002d4       0x32 ./core.a(startup.c.o)
+                0x00000000000002d4       0x32 ./core.a(main.cpp.o)
  .ARM.attributes
-                0x0000000000000306       0x32 ./core.a(variant.cpp.o)
+                0x0000000000000306       0x32 ./core.a(startup.c.o)
  .ARM.attributes
-                0x0000000000000338       0x32 ./core.a(delay.c.o)
+                0x0000000000000338       0x32 ./core.a(variant.cpp.o)
  .ARM.attributes
-                0x000000000000036a       0x32 ./core.a(USBCore.cpp.o)
+                0x000000000000036a       0x32 ./core.a(delay.c.o)
  .ARM.attributes
-                0x000000000000039c       0x32 ./core.a(SERCOM.cpp.o)
+                0x000000000000039c       0x32 ./core.a(USBCore.cpp.o)
  .ARM.attributes
-                0x00000000000003ce       0x32 ./core.a(Reset.cpp.o)
+                0x00000000000003ce       0x32 ./core.a(SERCOM.cpp.o)
  .ARM.attributes
-                0x0000000000000400       0x32 ./core.a(new.cpp.o)
+                0x0000000000000400       0x32 ./core.a(Reset.cpp.o)
  .ARM.attributes
-                0x0000000000000432       0x32 ./core.a(PluggableUSB.cpp.o)
+                0x0000000000000432       0x32 ./core.a(new.cpp.o)
  .ARM.attributes
-                0x0000000000000464       0x32 ./core.a(CDC.cpp.o)
+                0x0000000000000464       0x32 ./core.a(PluggableUSB.cpp.o)
  .ARM.attributes
-                0x0000000000000496       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+                0x0000000000000496       0x32 ./core.a(CDC.cpp.o)
  .ARM.attributes
-                0x00000000000004c2       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x00000000000004c8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
  .ARM.attributes
-                0x00000000000004e0       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x00000000000004f4       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x00000000000004fe       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000000512       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000000000000051c       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000000530       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000000000000053a       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                0x000000000000054e       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000000000000558       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+                0x000000000000056c       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x0000000000000584       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
+                0x000000000000058a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
  .ARM.attributes
-                0x00000000000005b0       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
+                0x00000000000005b6       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
  .ARM.attributes
-                0x00000000000005dc       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
+                0x00000000000005e2       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
  .ARM.attributes
-                0x0000000000000608       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
+                0x000000000000060e       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
  .ARM.attributes
-                0x0000000000000634       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
+                0x000000000000063a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
  .ARM.attributes
-                0x0000000000000660       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
+                0x0000000000000666       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
  .ARM.attributes
-                0x000000000000068c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
+                0x0000000000000692       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
  .ARM.attributes
-                0x00000000000006b8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
+                0x00000000000006be       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
  .ARM.attributes
-                0x00000000000006e4       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
+                0x00000000000006ea       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
  .ARM.attributes
-                0x0000000000000710       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
+                0x0000000000000716       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
  .ARM.attributes
-                0x000000000000073c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
+                0x0000000000000742       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
  .ARM.attributes
-                0x0000000000000768       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
+                0x000000000000076e       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
  .ARM.attributes
-                0x0000000000000794       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
+                0x000000000000079a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
  .ARM.attributes
-                0x00000000000007c0       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
+                0x00000000000007c6       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
  .ARM.attributes
-                0x00000000000007ec       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_clzsi2.o)
+                0x00000000000007f2       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
  .ARM.attributes
-                0x000000000000080a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
+                0x000000000000081e       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x0000000000000836       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
+                0x000000000000083c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
  .ARM.attributes
-                0x0000000000000862       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
+                0x0000000000000868       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
  .ARM.attributes
-                0x000000000000088e       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
+                0x0000000000000894       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000000008ba       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
+                0x00000000000008c0       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000008e6       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
+                0x00000000000008ec       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
  .ARM.attributes
-                0x0000000000000912       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
+                0x0000000000000918       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000000000000093e       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
+                0x0000000000000944       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
  .ARM.attributes
-                0x000000000000096a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
+                0x0000000000000970       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000996       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
+                0x000000000000099c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000009c2       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
+                0x00000000000009c8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000000000009ee       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+                0x00000000000009f4       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000a1a       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
+                0x0000000000000a20       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
  .ARM.attributes
-                0x0000000000000a46       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+                0x0000000000000a4c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x0000000000000a78       0x1e /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
 
 .comment        0x0000000000000000       0x70
  .comment       0x0000000000000000       0x70 project/AudioFrequencyMeter.cpp.o
                                          0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 project/LiquidCrystal.cpp.o
  .comment       0x0000000000000000       0x71 project/SoftwareSerial.cpp.o
  .comment       0x0000000000000000       0x71 project/fall2018HearingCarMainCode.cpp.o
  .comment       0x0000000000000000       0x71 ./core.a(wiring.c.o)
@@ -1740,265 +1853,275 @@ OUTPUT(./fall2018HearingCarMainCode.elf elf32-littlearm)
  .comment       0x0000000000000000       0x71 ./core.a(PluggableUSB.cpp.o)
  .comment       0x0000000000000000       0x71 ./core.a(CDC.cpp.o)
 
-.debug_info     0x0000000000000000    0x2fe92
+.debug_info     0x0000000000000000    0x31bdb
  .debug_info    0x0000000000000000     0x2b50 project/AudioFrequencyMeter.cpp.o
- .debug_info    0x0000000000002b50     0x3879 project/SoftwareSerial.cpp.o
- .debug_info    0x00000000000063c9      0x855 project/fall2018HearingCarMainCode.cpp.o
- .debug_info    0x0000000000006c1e     0x1ddc ./core.a(wiring.c.o)
- .debug_info    0x00000000000089fa      0xb8f ./core.a(wiring_digital.c.o)
- .debug_info    0x0000000000009589     0x2758 ./core.a(Print.cpp.o)
- .debug_info    0x000000000000bce1      0x4d6 ./core.a(cortex_handlers.c.o)
- .debug_info    0x000000000000c1b7      0xb78 ./core.a(wiring_private.c.o)
- .debug_info    0x000000000000cd2f       0x60 ./core.a(hooks.c.o)
- .debug_info    0x000000000000cd8f     0x171d ./core.a(WInterrupts.c.o)
- .debug_info    0x000000000000e4ac     0x58a9 ./core.a(Uart.cpp.o)
- .debug_info    0x0000000000013d55     0x435b ./core.a(wiring_analog.c.o)
- .debug_info    0x00000000000180b0      0x7c2 ./core.a(main.cpp.o)
- .debug_info    0x0000000000018872     0x28ff ./core.a(startup.c.o)
- .debug_info    0x000000000001b171     0x551c ./core.a(variant.cpp.o)
- .debug_info    0x000000000002068d      0x362 ./core.a(delay.c.o)
- .debug_info    0x00000000000209ef     0x7c8e ./core.a(USBCore.cpp.o)
- .debug_info    0x000000000002867d     0x3a9b ./core.a(SERCOM.cpp.o)
- .debug_info    0x000000000002c118      0x846 ./core.a(Reset.cpp.o)
- .debug_info    0x000000000002c95e      0x1a1 ./core.a(new.cpp.o)
- .debug_info    0x000000000002caff      0x6f0 ./core.a(PluggableUSB.cpp.o)
- .debug_info    0x000000000002d1ef     0x2ca3 ./core.a(CDC.cpp.o)
+ .debug_info    0x0000000000002b50     0x1b0f project/LiquidCrystal.cpp.o
+ .debug_info    0x000000000000465f     0x3879 project/SoftwareSerial.cpp.o
+ .debug_info    0x0000000000007ed8      0xa8f project/fall2018HearingCarMainCode.cpp.o
+ .debug_info    0x0000000000008967     0x1ddc ./core.a(wiring.c.o)
+ .debug_info    0x000000000000a743      0xb8f ./core.a(wiring_digital.c.o)
+ .debug_info    0x000000000000b2d2     0x2758 ./core.a(Print.cpp.o)
+ .debug_info    0x000000000000da2a      0x4d6 ./core.a(cortex_handlers.c.o)
+ .debug_info    0x000000000000df00      0xb78 ./core.a(wiring_private.c.o)
+ .debug_info    0x000000000000ea78       0x60 ./core.a(hooks.c.o)
+ .debug_info    0x000000000000ead8     0x171d ./core.a(WInterrupts.c.o)
+ .debug_info    0x00000000000101f5     0x58a9 ./core.a(Uart.cpp.o)
+ .debug_info    0x0000000000015a9e     0x435b ./core.a(wiring_analog.c.o)
+ .debug_info    0x0000000000019df9      0x7c2 ./core.a(main.cpp.o)
+ .debug_info    0x000000000001a5bb     0x28ff ./core.a(startup.c.o)
+ .debug_info    0x000000000001ceba     0x551c ./core.a(variant.cpp.o)
+ .debug_info    0x00000000000223d6      0x362 ./core.a(delay.c.o)
+ .debug_info    0x0000000000022738     0x7c8e ./core.a(USBCore.cpp.o)
+ .debug_info    0x000000000002a3c6     0x3a9b ./core.a(SERCOM.cpp.o)
+ .debug_info    0x000000000002de61      0x846 ./core.a(Reset.cpp.o)
+ .debug_info    0x000000000002e6a7      0x1a1 ./core.a(new.cpp.o)
+ .debug_info    0x000000000002e848      0x6f0 ./core.a(PluggableUSB.cpp.o)
+ .debug_info    0x000000000002ef38     0x2ca3 ./core.a(CDC.cpp.o)
 
-.debug_abbrev   0x0000000000000000     0x4aa6
+.debug_abbrev   0x0000000000000000     0x4ea3
  .debug_abbrev  0x0000000000000000      0x53a project/AudioFrequencyMeter.cpp.o
- .debug_abbrev  0x000000000000053a      0x68c project/SoftwareSerial.cpp.o
- .debug_abbrev  0x0000000000000bc6      0x2ed project/fall2018HearingCarMainCode.cpp.o
- .debug_abbrev  0x0000000000000eb3      0x281 ./core.a(wiring.c.o)
- .debug_abbrev  0x0000000000001134      0x201 ./core.a(wiring_digital.c.o)
- .debug_abbrev  0x0000000000001335      0x487 ./core.a(Print.cpp.o)
- .debug_abbrev  0x00000000000017bc      0x159 ./core.a(cortex_handlers.c.o)
- .debug_abbrev  0x0000000000001915      0x21b ./core.a(wiring_private.c.o)
- .debug_abbrev  0x0000000000001b30       0x47 ./core.a(hooks.c.o)
- .debug_abbrev  0x0000000000001b77      0x324 ./core.a(WInterrupts.c.o)
- .debug_abbrev  0x0000000000001e9b      0x65e ./core.a(Uart.cpp.o)
- .debug_abbrev  0x00000000000024f9      0x38f ./core.a(wiring_analog.c.o)
- .debug_abbrev  0x0000000000002888      0x216 ./core.a(main.cpp.o)
- .debug_abbrev  0x0000000000002a9e      0x17a ./core.a(startup.c.o)
- .debug_abbrev  0x0000000000002c18      0x32b ./core.a(variant.cpp.o)
- .debug_abbrev  0x0000000000002f43      0x158 ./core.a(delay.c.o)
- .debug_abbrev  0x000000000000309b      0x8f9 ./core.a(USBCore.cpp.o)
- .debug_abbrev  0x0000000000003994      0x48d ./core.a(SERCOM.cpp.o)
- .debug_abbrev  0x0000000000003e21      0x264 ./core.a(Reset.cpp.o)
- .debug_abbrev  0x0000000000004085       0xd7 ./core.a(new.cpp.o)
- .debug_abbrev  0x000000000000415c      0x2f1 ./core.a(PluggableUSB.cpp.o)
- .debug_abbrev  0x000000000000444d      0x659 ./core.a(CDC.cpp.o)
+ .debug_abbrev  0x000000000000053a      0x3ce project/LiquidCrystal.cpp.o
+ .debug_abbrev  0x0000000000000908      0x68c project/SoftwareSerial.cpp.o
+ .debug_abbrev  0x0000000000000f94      0x31c project/fall2018HearingCarMainCode.cpp.o
+ .debug_abbrev  0x00000000000012b0      0x281 ./core.a(wiring.c.o)
+ .debug_abbrev  0x0000000000001531      0x201 ./core.a(wiring_digital.c.o)
+ .debug_abbrev  0x0000000000001732      0x487 ./core.a(Print.cpp.o)
+ .debug_abbrev  0x0000000000001bb9      0x159 ./core.a(cortex_handlers.c.o)
+ .debug_abbrev  0x0000000000001d12      0x21b ./core.a(wiring_private.c.o)
+ .debug_abbrev  0x0000000000001f2d       0x47 ./core.a(hooks.c.o)
+ .debug_abbrev  0x0000000000001f74      0x324 ./core.a(WInterrupts.c.o)
+ .debug_abbrev  0x0000000000002298      0x65e ./core.a(Uart.cpp.o)
+ .debug_abbrev  0x00000000000028f6      0x38f ./core.a(wiring_analog.c.o)
+ .debug_abbrev  0x0000000000002c85      0x216 ./core.a(main.cpp.o)
+ .debug_abbrev  0x0000000000002e9b      0x17a ./core.a(startup.c.o)
+ .debug_abbrev  0x0000000000003015      0x32b ./core.a(variant.cpp.o)
+ .debug_abbrev  0x0000000000003340      0x158 ./core.a(delay.c.o)
+ .debug_abbrev  0x0000000000003498      0x8f9 ./core.a(USBCore.cpp.o)
+ .debug_abbrev  0x0000000000003d91      0x48d ./core.a(SERCOM.cpp.o)
+ .debug_abbrev  0x000000000000421e      0x264 ./core.a(Reset.cpp.o)
+ .debug_abbrev  0x0000000000004482       0xd7 ./core.a(new.cpp.o)
+ .debug_abbrev  0x0000000000004559      0x2f1 ./core.a(PluggableUSB.cpp.o)
+ .debug_abbrev  0x000000000000484a      0x659 ./core.a(CDC.cpp.o)
 
-.debug_loc      0x0000000000000000     0x6c10
+.debug_loc      0x0000000000000000     0x8060
  .debug_loc     0x0000000000000000      0x29e project/AudioFrequencyMeter.cpp.o
- .debug_loc     0x000000000000029e      0x731 project/SoftwareSerial.cpp.o
- .debug_loc     0x00000000000009cf       0x65 project/fall2018HearingCarMainCode.cpp.o
- .debug_loc     0x0000000000000a34       0xe9 ./core.a(wiring.c.o)
- .debug_loc     0x0000000000000b1d      0x19f ./core.a(wiring_digital.c.o)
- .debug_loc     0x0000000000000cbc     0x1155 ./core.a(Print.cpp.o)
- .debug_loc     0x0000000000001e11       0x7b ./core.a(cortex_handlers.c.o)
- .debug_loc     0x0000000000001e8c      0x123 ./core.a(wiring_private.c.o)
- .debug_loc     0x0000000000001faf      0x283 ./core.a(WInterrupts.c.o)
- .debug_loc     0x0000000000002232      0xa94 ./core.a(Uart.cpp.o)
- .debug_loc     0x0000000000002cc6      0x53d ./core.a(wiring_analog.c.o)
- .debug_loc     0x0000000000003203       0x58 ./core.a(startup.c.o)
- .debug_loc     0x000000000000325b       0xf4 ./core.a(delay.c.o)
- .debug_loc     0x000000000000334f     0x25e9 ./core.a(USBCore.cpp.o)
- .debug_loc     0x0000000000005938      0xa97 ./core.a(SERCOM.cpp.o)
- .debug_loc     0x00000000000063cf       0x84 ./core.a(new.cpp.o)
- .debug_loc     0x0000000000006453      0x258 ./core.a(PluggableUSB.cpp.o)
- .debug_loc     0x00000000000066ab      0x565 ./core.a(CDC.cpp.o)
+ .debug_loc     0x000000000000029e     0x1435 project/LiquidCrystal.cpp.o
+ .debug_loc     0x00000000000016d3      0x731 project/SoftwareSerial.cpp.o
+ .debug_loc     0x0000000000001e04       0x80 project/fall2018HearingCarMainCode.cpp.o
+ .debug_loc     0x0000000000001e84       0xe9 ./core.a(wiring.c.o)
+ .debug_loc     0x0000000000001f6d      0x19f ./core.a(wiring_digital.c.o)
+ .debug_loc     0x000000000000210c     0x1155 ./core.a(Print.cpp.o)
+ .debug_loc     0x0000000000003261       0x7b ./core.a(cortex_handlers.c.o)
+ .debug_loc     0x00000000000032dc      0x123 ./core.a(wiring_private.c.o)
+ .debug_loc     0x00000000000033ff      0x283 ./core.a(WInterrupts.c.o)
+ .debug_loc     0x0000000000003682      0xa94 ./core.a(Uart.cpp.o)
+ .debug_loc     0x0000000000004116      0x53d ./core.a(wiring_analog.c.o)
+ .debug_loc     0x0000000000004653       0x58 ./core.a(startup.c.o)
+ .debug_loc     0x00000000000046ab       0xf4 ./core.a(delay.c.o)
+ .debug_loc     0x000000000000479f     0x25e9 ./core.a(USBCore.cpp.o)
+ .debug_loc     0x0000000000006d88      0xa97 ./core.a(SERCOM.cpp.o)
+ .debug_loc     0x000000000000781f       0x84 ./core.a(new.cpp.o)
+ .debug_loc     0x00000000000078a3      0x258 ./core.a(PluggableUSB.cpp.o)
+ .debug_loc     0x0000000000007afb      0x565 ./core.a(CDC.cpp.o)
 
-.debug_aranges  0x0000000000000000      0xa68
+.debug_aranges  0x0000000000000000      0xb78
  .debug_aranges
                 0x0000000000000000       0xd0 project/AudioFrequencyMeter.cpp.o
  .debug_aranges
-                0x00000000000000d0       0xa8 project/SoftwareSerial.cpp.o
+                0x00000000000000d0      0x110 project/LiquidCrystal.cpp.o
  .debug_aranges
-                0x0000000000000178       0x40 project/fall2018HearingCarMainCode.cpp.o
+                0x00000000000001e0       0xa8 project/SoftwareSerial.cpp.o
  .debug_aranges
-                0x00000000000001b8       0x20 ./core.a(wiring.c.o)
+                0x0000000000000288       0x40 project/fall2018HearingCarMainCode.cpp.o
  .debug_aranges
-                0x00000000000001d8       0x30 ./core.a(wiring_digital.c.o)
+                0x00000000000002c8       0x20 ./core.a(wiring.c.o)
  .debug_aranges
-                0x0000000000000208      0x108 ./core.a(Print.cpp.o)
+                0x00000000000002e8       0x30 ./core.a(wiring_digital.c.o)
  .debug_aranges
-                0x0000000000000310       0x40 ./core.a(cortex_handlers.c.o)
+                0x0000000000000318      0x108 ./core.a(Print.cpp.o)
  .debug_aranges
-                0x0000000000000350       0x20 ./core.a(wiring_private.c.o)
+                0x0000000000000420       0x40 ./core.a(cortex_handlers.c.o)
  .debug_aranges
-                0x0000000000000370       0x30 ./core.a(hooks.c.o)
+                0x0000000000000460       0x20 ./core.a(wiring_private.c.o)
  .debug_aranges
-                0x00000000000003a0       0x30 ./core.a(WInterrupts.c.o)
+                0x0000000000000480       0x30 ./core.a(hooks.c.o)
  .debug_aranges
-                0x00000000000003d0       0xb8 ./core.a(Uart.cpp.o)
+                0x00000000000004b0       0x30 ./core.a(WInterrupts.c.o)
  .debug_aranges
-                0x0000000000000488       0x48 ./core.a(wiring_analog.c.o)
+                0x00000000000004e0       0xb8 ./core.a(Uart.cpp.o)
  .debug_aranges
-                0x00000000000004d0       0x28 ./core.a(main.cpp.o)
+                0x0000000000000598       0x48 ./core.a(wiring_analog.c.o)
  .debug_aranges
-                0x00000000000004f8       0x20 ./core.a(startup.c.o)
+                0x00000000000005e0       0x28 ./core.a(main.cpp.o)
  .debug_aranges
-                0x0000000000000518       0x30 ./core.a(variant.cpp.o)
+                0x0000000000000608       0x20 ./core.a(startup.c.o)
  .debug_aranges
-                0x0000000000000548       0x38 ./core.a(delay.c.o)
+                0x0000000000000628       0x30 ./core.a(variant.cpp.o)
  .debug_aranges
-                0x0000000000000580      0x170 ./core.a(USBCore.cpp.o)
+                0x0000000000000658       0x38 ./core.a(delay.c.o)
  .debug_aranges
-                0x00000000000006f0      0x1d8 ./core.a(SERCOM.cpp.o)
+                0x0000000000000690      0x170 ./core.a(USBCore.cpp.o)
  .debug_aranges
-                0x00000000000008c8       0x30 ./core.a(Reset.cpp.o)
+                0x0000000000000800      0x1d8 ./core.a(SERCOM.cpp.o)
  .debug_aranges
-                0x00000000000008f8       0x38 ./core.a(new.cpp.o)
+                0x00000000000009d8       0x30 ./core.a(Reset.cpp.o)
  .debug_aranges
-                0x0000000000000930       0x50 ./core.a(PluggableUSB.cpp.o)
+                0x0000000000000a08       0x38 ./core.a(new.cpp.o)
  .debug_aranges
-                0x0000000000000980       0xe8 ./core.a(CDC.cpp.o)
+                0x0000000000000a40       0x50 ./core.a(PluggableUSB.cpp.o)
+ .debug_aranges
+                0x0000000000000a90       0xe8 ./core.a(CDC.cpp.o)
 
-.debug_ranges   0x0000000000000000     0x1588
+.debug_ranges   0x0000000000000000     0x17a8
  .debug_ranges  0x0000000000000000       0xf0 project/AudioFrequencyMeter.cpp.o
- .debug_ranges  0x00000000000000f0      0x188 project/SoftwareSerial.cpp.o
- .debug_ranges  0x0000000000000278       0x30 project/fall2018HearingCarMainCode.cpp.o
- .debug_ranges  0x00000000000002a8       0x28 ./core.a(wiring.c.o)
- .debug_ranges  0x00000000000002d0       0x20 ./core.a(wiring_digital.c.o)
- .debug_ranges  0x00000000000002f0      0x290 ./core.a(Print.cpp.o)
- .debug_ranges  0x0000000000000580       0x30 ./core.a(cortex_handlers.c.o)
- .debug_ranges  0x00000000000005b0       0x28 ./core.a(wiring_private.c.o)
- .debug_ranges  0x00000000000005d8       0x20 ./core.a(hooks.c.o)
- .debug_ranges  0x00000000000005f8       0x38 ./core.a(WInterrupts.c.o)
- .debug_ranges  0x0000000000000630      0x228 ./core.a(Uart.cpp.o)
- .debug_ranges  0x0000000000000858       0x38 ./core.a(wiring_analog.c.o)
- .debug_ranges  0x0000000000000890       0x18 ./core.a(main.cpp.o)
- .debug_ranges  0x00000000000008a8       0x10 ./core.a(startup.c.o)
- .debug_ranges  0x00000000000008b8       0x20 ./core.a(variant.cpp.o)
- .debug_ranges  0x00000000000008d8       0x28 ./core.a(delay.c.o)
- .debug_ranges  0x0000000000000900      0x790 ./core.a(USBCore.cpp.o)
- .debug_ranges  0x0000000000001090      0x298 ./core.a(SERCOM.cpp.o)
- .debug_ranges  0x0000000000001328       0x38 ./core.a(Reset.cpp.o)
- .debug_ranges  0x0000000000001360       0x28 ./core.a(new.cpp.o)
- .debug_ranges  0x0000000000001388       0xd0 ./core.a(PluggableUSB.cpp.o)
- .debug_ranges  0x0000000000001458      0x130 ./core.a(CDC.cpp.o)
+ .debug_ranges  0x00000000000000f0      0x220 project/LiquidCrystal.cpp.o
+ .debug_ranges  0x0000000000000310      0x188 project/SoftwareSerial.cpp.o
+ .debug_ranges  0x0000000000000498       0x30 project/fall2018HearingCarMainCode.cpp.o
+ .debug_ranges  0x00000000000004c8       0x28 ./core.a(wiring.c.o)
+ .debug_ranges  0x00000000000004f0       0x20 ./core.a(wiring_digital.c.o)
+ .debug_ranges  0x0000000000000510      0x290 ./core.a(Print.cpp.o)
+ .debug_ranges  0x00000000000007a0       0x30 ./core.a(cortex_handlers.c.o)
+ .debug_ranges  0x00000000000007d0       0x28 ./core.a(wiring_private.c.o)
+ .debug_ranges  0x00000000000007f8       0x20 ./core.a(hooks.c.o)
+ .debug_ranges  0x0000000000000818       0x38 ./core.a(WInterrupts.c.o)
+ .debug_ranges  0x0000000000000850      0x228 ./core.a(Uart.cpp.o)
+ .debug_ranges  0x0000000000000a78       0x38 ./core.a(wiring_analog.c.o)
+ .debug_ranges  0x0000000000000ab0       0x18 ./core.a(main.cpp.o)
+ .debug_ranges  0x0000000000000ac8       0x10 ./core.a(startup.c.o)
+ .debug_ranges  0x0000000000000ad8       0x20 ./core.a(variant.cpp.o)
+ .debug_ranges  0x0000000000000af8       0x28 ./core.a(delay.c.o)
+ .debug_ranges  0x0000000000000b20      0x790 ./core.a(USBCore.cpp.o)
+ .debug_ranges  0x00000000000012b0      0x298 ./core.a(SERCOM.cpp.o)
+ .debug_ranges  0x0000000000001548       0x38 ./core.a(Reset.cpp.o)
+ .debug_ranges  0x0000000000001580       0x28 ./core.a(new.cpp.o)
+ .debug_ranges  0x00000000000015a8       0xd0 ./core.a(PluggableUSB.cpp.o)
+ .debug_ranges  0x0000000000001678      0x130 ./core.a(CDC.cpp.o)
 
-.debug_line     0x0000000000000000     0x6b65
+.debug_line     0x0000000000000000     0x7362
  .debug_line    0x0000000000000000      0x75d project/AudioFrequencyMeter.cpp.o
- .debug_line    0x000000000000075d      0x723 project/SoftwareSerial.cpp.o
- .debug_line    0x0000000000000e80      0x3fd project/fall2018HearingCarMainCode.cpp.o
- .debug_line    0x000000000000127d      0x3f7 ./core.a(wiring.c.o)
- .debug_line    0x0000000000001674      0x356 ./core.a(wiring_digital.c.o)
- .debug_line    0x00000000000019ca      0x694 ./core.a(Print.cpp.o)
- .debug_line    0x000000000000205e      0x300 ./core.a(cortex_handlers.c.o)
- .debug_line    0x000000000000235e      0x359 ./core.a(wiring_private.c.o)
- .debug_line    0x00000000000026b7       0xac ./core.a(hooks.c.o)
- .debug_line    0x0000000000002763      0x464 ./core.a(WInterrupts.c.o)
- .debug_line    0x0000000000002bc7      0x7c2 ./core.a(Uart.cpp.o)
- .debug_line    0x0000000000003389      0x4e2 ./core.a(wiring_analog.c.o)
- .debug_line    0x000000000000386b      0x2c1 ./core.a(main.cpp.o)
- .debug_line    0x0000000000003b2c      0x3bf ./core.a(startup.c.o)
- .debug_line    0x0000000000003eeb      0x2f3 ./core.a(variant.cpp.o)
- .debug_line    0x00000000000041de      0x2f7 ./core.a(delay.c.o)
- .debug_line    0x00000000000044d5      0xeac ./core.a(USBCore.cpp.o)
- .debug_line    0x0000000000005381      0x96f ./core.a(SERCOM.cpp.o)
- .debug_line    0x0000000000005cf0      0x362 ./core.a(Reset.cpp.o)
- .debug_line    0x0000000000006052      0x1c1 ./core.a(new.cpp.o)
- .debug_line    0x0000000000006213      0x2f5 ./core.a(PluggableUSB.cpp.o)
- .debug_line    0x0000000000006508      0x65d ./core.a(CDC.cpp.o)
+ .debug_line    0x000000000000075d      0x7da project/LiquidCrystal.cpp.o
+ .debug_line    0x0000000000000f37      0x723 project/SoftwareSerial.cpp.o
+ .debug_line    0x000000000000165a      0x420 project/fall2018HearingCarMainCode.cpp.o
+ .debug_line    0x0000000000001a7a      0x3f7 ./core.a(wiring.c.o)
+ .debug_line    0x0000000000001e71      0x356 ./core.a(wiring_digital.c.o)
+ .debug_line    0x00000000000021c7      0x694 ./core.a(Print.cpp.o)
+ .debug_line    0x000000000000285b      0x300 ./core.a(cortex_handlers.c.o)
+ .debug_line    0x0000000000002b5b      0x359 ./core.a(wiring_private.c.o)
+ .debug_line    0x0000000000002eb4       0xac ./core.a(hooks.c.o)
+ .debug_line    0x0000000000002f60      0x464 ./core.a(WInterrupts.c.o)
+ .debug_line    0x00000000000033c4      0x7c2 ./core.a(Uart.cpp.o)
+ .debug_line    0x0000000000003b86      0x4e2 ./core.a(wiring_analog.c.o)
+ .debug_line    0x0000000000004068      0x2c1 ./core.a(main.cpp.o)
+ .debug_line    0x0000000000004329      0x3bf ./core.a(startup.c.o)
+ .debug_line    0x00000000000046e8      0x2f3 ./core.a(variant.cpp.o)
+ .debug_line    0x00000000000049db      0x2f7 ./core.a(delay.c.o)
+ .debug_line    0x0000000000004cd2      0xeac ./core.a(USBCore.cpp.o)
+ .debug_line    0x0000000000005b7e      0x96f ./core.a(SERCOM.cpp.o)
+ .debug_line    0x00000000000064ed      0x362 ./core.a(Reset.cpp.o)
+ .debug_line    0x000000000000684f      0x1c1 ./core.a(new.cpp.o)
+ .debug_line    0x0000000000006a10      0x2f5 ./core.a(PluggableUSB.cpp.o)
+ .debug_line    0x0000000000006d05      0x65d ./core.a(CDC.cpp.o)
 
-.debug_str      0x0000000000000000     0x96b2
+.debug_str      0x0000000000000000     0x9bef
  .debug_str     0x0000000000000000     0x1587 project/AudioFrequencyMeter.cpp.o
                                        0x19cb (size before relaxing)
- .debug_str     0x0000000000001587     0x1738 project/SoftwareSerial.cpp.o
+ .debug_str     0x0000000000001587      0x5e9 project/LiquidCrystal.cpp.o
+                                        0x8a7 (size before relaxing)
+ .debug_str     0x0000000000001b70     0x16b7 project/SoftwareSerial.cpp.o
                                        0x2233 (size before relaxing)
- .debug_str     0x0000000000002cbf      0x1c5 project/fall2018HearingCarMainCode.cpp.o
-                                        0x8e9 (size before relaxing)
- .debug_str     0x0000000000002e84      0x3ef ./core.a(wiring.c.o)
+ .debug_str     0x0000000000003227      0x1bc project/fall2018HearingCarMainCode.cpp.o
+                                        0x95a (size before relaxing)
+ .debug_str     0x00000000000033e3      0x3ef ./core.a(wiring.c.o)
                                         0xbe4 (size before relaxing)
- .debug_str     0x0000000000003273       0x7b ./core.a(wiring_digital.c.o)
+ .debug_str     0x00000000000037d2       0x7b ./core.a(wiring_digital.c.o)
                                         0x96f (size before relaxing)
- .debug_str     0x00000000000032ee      0x377 ./core.a(Print.cpp.o)
+ .debug_str     0x000000000000384d      0x377 ./core.a(Print.cpp.o)
                                        0x104f (size before relaxing)
- .debug_str     0x0000000000003665      0x3fc ./core.a(cortex_handlers.c.o)
+ .debug_str     0x0000000000003bc4      0x3fc ./core.a(cortex_handlers.c.o)
                                         0x631 (size before relaxing)
- .debug_str     0x0000000000003a61       0x78 ./core.a(wiring_private.c.o)
+ .debug_str     0x0000000000003fc0       0x78 ./core.a(wiring_private.c.o)
                                         0x9bf (size before relaxing)
- .debug_str     0x0000000000003ad9       0x74 ./core.a(hooks.c.o)
+ .debug_str     0x0000000000004038       0x74 ./core.a(hooks.c.o)
                                         0x133 (size before relaxing)
- .debug_str     0x0000000000003b4d       0xb6 ./core.a(WInterrupts.c.o)
+ .debug_str     0x00000000000040ac       0xb1 ./core.a(WInterrupts.c.o)
                                         0xf1c (size before relaxing)
- .debug_str     0x0000000000003c03     0x1980 ./core.a(Uart.cpp.o)
+ .debug_str     0x000000000000415d     0x1974 ./core.a(Uart.cpp.o)
                                        0x3a7b (size before relaxing)
- .debug_str     0x0000000000005583      0x58c ./core.a(wiring_analog.c.o)
+ .debug_str     0x0000000000005ad1      0x58c ./core.a(wiring_analog.c.o)
                                        0x161a (size before relaxing)
- .debug_str     0x0000000000005b0f      0x6c2 ./core.a(main.cpp.o)
+ .debug_str     0x000000000000605d      0x6b1 ./core.a(main.cpp.o)
                                         0x9a9 (size before relaxing)
- .debug_str     0x00000000000061d1      0x445 ./core.a(startup.c.o)
+ .debug_str     0x000000000000670e      0x445 ./core.a(startup.c.o)
                                         0xd7e (size before relaxing)
- .debug_str     0x0000000000006616      0x25f ./core.a(variant.cpp.o)
+ .debug_str     0x0000000000006b53      0x25f ./core.a(variant.cpp.o)
                                        0x2f98 (size before relaxing)
- .debug_str     0x0000000000006875       0xad ./core.a(delay.c.o)
+ .debug_str     0x0000000000006db2       0xad ./core.a(delay.c.o)
                                         0x2c1 (size before relaxing)
- .debug_str     0x0000000000006922     0x23eb ./core.a(USBCore.cpp.o)
+ .debug_str     0x0000000000006e5f     0x23eb ./core.a(USBCore.cpp.o)
                                        0x3ba8 (size before relaxing)
- .debug_str     0x0000000000008d0d      0x1b6 ./core.a(SERCOM.cpp.o)
+ .debug_str     0x000000000000924a      0x1b6 ./core.a(SERCOM.cpp.o)
                                        0x22f9 (size before relaxing)
- .debug_str     0x0000000000008ec3      0x195 ./core.a(Reset.cpp.o)
+ .debug_str     0x0000000000009400      0x195 ./core.a(Reset.cpp.o)
                                         0x606 (size before relaxing)
- .debug_str     0x0000000000009058       0xa9 ./core.a(new.cpp.o)
+ .debug_str     0x0000000000009595       0xa9 ./core.a(new.cpp.o)
                                         0x274 (size before relaxing)
- .debug_str     0x0000000000009101       0xa0 ./core.a(PluggableUSB.cpp.o)
+ .debug_str     0x000000000000963e       0xa0 ./core.a(PluggableUSB.cpp.o)
                                         0x620 (size before relaxing)
- .debug_str     0x00000000000091a1      0x511 ./core.a(CDC.cpp.o)
+ .debug_str     0x00000000000096de      0x511 ./core.a(CDC.cpp.o)
                                        0x1f28 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x1e40
+.debug_frame    0x0000000000000000     0x216c
  .debug_frame   0x0000000000000000      0x1e8 project/AudioFrequencyMeter.cpp.o
- .debug_frame   0x00000000000001e8      0x1c4 project/SoftwareSerial.cpp.o
- .debug_frame   0x00000000000003ac       0x94 project/fall2018HearingCarMainCode.cpp.o
- .debug_frame   0x0000000000000440       0x28 ./core.a(wiring.c.o)
- .debug_frame   0x0000000000000468       0x58 ./core.a(wiring_digital.c.o)
- .debug_frame   0x00000000000004c0      0x330 ./core.a(Print.cpp.o)
- .debug_frame   0x00000000000007f0       0x7c ./core.a(cortex_handlers.c.o)
- .debug_frame   0x000000000000086c       0x30 ./core.a(wiring_private.c.o)
- .debug_frame   0x000000000000089c       0x40 ./core.a(hooks.c.o)
- .debug_frame   0x00000000000008dc       0x70 ./core.a(WInterrupts.c.o)
- .debug_frame   0x000000000000094c      0x1c8 ./core.a(Uart.cpp.o)
- .debug_frame   0x0000000000000b14       0x90 ./core.a(wiring_analog.c.o)
- .debug_frame   0x0000000000000ba4       0x38 ./core.a(main.cpp.o)
- .debug_frame   0x0000000000000bdc       0x2c ./core.a(startup.c.o)
- .debug_frame   0x0000000000000c08       0x64 ./core.a(variant.cpp.o)
- .debug_frame   0x0000000000000c6c       0x78 ./core.a(delay.c.o)
- .debug_frame   0x0000000000000ce4      0x458 ./core.a(USBCore.cpp.o)
- .debug_frame   0x000000000000113c      0x448 ./core.a(SERCOM.cpp.o)
- .debug_frame   0x0000000000001584       0x40 ./core.a(Reset.cpp.o)
- .debug_frame   0x00000000000015c4       0x70 ./core.a(new.cpp.o)
- .debug_frame   0x0000000000001634       0xc4 ./core.a(PluggableUSB.cpp.o)
- .debug_frame   0x00000000000016f8      0x214 ./core.a(CDC.cpp.o)
- .debug_frame   0x000000000000190c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
- .debug_frame   0x0000000000001938       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000001958       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
- .debug_frame   0x0000000000001984       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
- .debug_frame   0x00000000000019b0       0x30 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
- .debug_frame   0x00000000000019e0       0x30 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
- .debug_frame   0x0000000000001a10       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
- .debug_frame   0x0000000000001a38       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
- .debug_frame   0x0000000000001a74       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
- .debug_frame   0x0000000000001ab0       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
- .debug_frame   0x0000000000001aec       0x38 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
- .debug_frame   0x0000000000001b24       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
- .debug_frame   0x0000000000001b60       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
- .debug_frame   0x0000000000001b9c       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
- .debug_frame   0x0000000000001bd8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
- .debug_frame   0x0000000000001c04       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
- .debug_frame   0x0000000000001c2c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
- .debug_frame   0x0000000000001c58       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
- .debug_frame   0x0000000000001c80       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
- .debug_frame   0x0000000000001cac       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
- .debug_frame   0x0000000000001cd8       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
- .debug_frame   0x0000000000001d18       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000001d40       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
- .debug_frame   0x0000000000001d60       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000001d8c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000001db8       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
- .debug_frame   0x0000000000001dd8       0x48 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
- .debug_frame   0x0000000000001e20       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+ .debug_frame   0x00000000000001e8      0x324 project/LiquidCrystal.cpp.o
+ .debug_frame   0x000000000000050c      0x1c4 project/SoftwareSerial.cpp.o
+ .debug_frame   0x00000000000006d0       0x9c project/fall2018HearingCarMainCode.cpp.o
+ .debug_frame   0x000000000000076c       0x28 ./core.a(wiring.c.o)
+ .debug_frame   0x0000000000000794       0x58 ./core.a(wiring_digital.c.o)
+ .debug_frame   0x00000000000007ec      0x330 ./core.a(Print.cpp.o)
+ .debug_frame   0x0000000000000b1c       0x7c ./core.a(cortex_handlers.c.o)
+ .debug_frame   0x0000000000000b98       0x30 ./core.a(wiring_private.c.o)
+ .debug_frame   0x0000000000000bc8       0x40 ./core.a(hooks.c.o)
+ .debug_frame   0x0000000000000c08       0x70 ./core.a(WInterrupts.c.o)
+ .debug_frame   0x0000000000000c78      0x1c8 ./core.a(Uart.cpp.o)
+ .debug_frame   0x0000000000000e40       0x90 ./core.a(wiring_analog.c.o)
+ .debug_frame   0x0000000000000ed0       0x38 ./core.a(main.cpp.o)
+ .debug_frame   0x0000000000000f08       0x2c ./core.a(startup.c.o)
+ .debug_frame   0x0000000000000f34       0x64 ./core.a(variant.cpp.o)
+ .debug_frame   0x0000000000000f98       0x78 ./core.a(delay.c.o)
+ .debug_frame   0x0000000000001010      0x458 ./core.a(USBCore.cpp.o)
+ .debug_frame   0x0000000000001468      0x448 ./core.a(SERCOM.cpp.o)
+ .debug_frame   0x00000000000018b0       0x40 ./core.a(Reset.cpp.o)
+ .debug_frame   0x00000000000018f0       0x70 ./core.a(new.cpp.o)
+ .debug_frame   0x0000000000001960       0xc4 ./core.a(PluggableUSB.cpp.o)
+ .debug_frame   0x0000000000001a24      0x214 ./core.a(CDC.cpp.o)
+ .debug_frame   0x0000000000001c38       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x0000000000001c64       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000001c84       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x0000000000001cb0       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqsf2.o)
+ .debug_frame   0x0000000000001cdc       0x30 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gesf2.o)
+ .debug_frame   0x0000000000001d0c       0x30 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(lesf2.o)
+ .debug_frame   0x0000000000001d3c       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000000000001d64       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(adddf3.o)
+ .debug_frame   0x0000000000001da0       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x0000000000001ddc       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000001e18       0x38 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000001e50       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000001e8c       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000001ec8       0x3c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000001f04       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000000000001f30       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000001f58       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(extendsfdf2.o)
+ .debug_frame   0x0000000000001f84       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-aeabi_atexit.o)
+ .debug_frame   0x0000000000001fac       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x0000000000001fd8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-init.o)
+ .debug_frame   0x0000000000002004       0x40 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000002044       0x28 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000000000000206c       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-memset.o)
+ .debug_frame   0x000000000000208c       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000020b8       0x2c /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000020e4       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000002104       0x48 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libc_s.a(lib_a-reent.o)
+ .debug_frame   0x000000000000214c       0x20 /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
 
 Cross Reference Table
 
@@ -2048,8 +2171,48 @@ EIC_Handler                                       ./core.a(WInterrupts.c.o)
 EVSYS_Handler                                     ./core.a(cortex_handlers.c.o)
 EndPoints                                         ./core.a(USBCore.cpp.o)
                                                   ./core.a(PluggableUSB.cpp.o)
+FrequencyDetect::FrequencyDetect(int)             project/FrequencyDetect.cpp.o
+FrequencyDetect::FrequencyDetect(int)             project/FrequencyDetect.cpp.o
+FrequencyDetect::begin()                          project/FrequencyDetect.cpp.o
 HardFault_Handler                                 ./core.a(cortex_handlers.c.o)
 I2S_Handler                                       ./core.a(cortex_handlers.c.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+                                                  project/fall2018HearingCarMainCode.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::autoscroll()                       project/LiquidCrystal.cpp.o
+LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+                                                  project/fall2018HearingCarMainCode.cpp.o
+LiquidCrystal::blink()                            project/LiquidCrystal.cpp.o
+LiquidCrystal::clear()                            project/LiquidCrystal.cpp.o
+                                                  project/fall2018HearingCarMainCode.cpp.o
+LiquidCrystal::command(unsigned char)             project/LiquidCrystal.cpp.o
+LiquidCrystal::createChar(unsigned char, unsigned char*) project/LiquidCrystal.cpp.o
+LiquidCrystal::cursor()                           project/LiquidCrystal.cpp.o
+LiquidCrystal::display()                          project/LiquidCrystal.cpp.o
+LiquidCrystal::home()                             project/LiquidCrystal.cpp.o
+LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::leftToRight()                      project/LiquidCrystal.cpp.o
+LiquidCrystal::noAutoscroll()                     project/LiquidCrystal.cpp.o
+LiquidCrystal::noBlink()                          project/LiquidCrystal.cpp.o
+LiquidCrystal::noCursor()                         project/LiquidCrystal.cpp.o
+LiquidCrystal::noDisplay()                        project/LiquidCrystal.cpp.o
+LiquidCrystal::pulseEnable()                      project/LiquidCrystal.cpp.o
+LiquidCrystal::rightToLeft()                      project/LiquidCrystal.cpp.o
+LiquidCrystal::scrollDisplayLeft()                project/LiquidCrystal.cpp.o
+LiquidCrystal::scrollDisplayRight()               project/LiquidCrystal.cpp.o
+LiquidCrystal::send(unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+LiquidCrystal::setCursor(unsigned char, unsigned char) project/LiquidCrystal.cpp.o
+                                                  project/fall2018HearingCarMainCode.cpp.o
+LiquidCrystal::setRowOffsets(int, int, int, int)  project/LiquidCrystal.cpp.o
+LiquidCrystal::write(unsigned char)               project/LiquidCrystal.cpp.o
+LiquidCrystal::write4bits(unsigned char)          project/LiquidCrystal.cpp.o
+LiquidCrystal::write8bits(unsigned char)          project/LiquidCrystal.cpp.o
 NMI_Handler                                       ./core.a(cortex_handlers.c.o)
 NVMCTRL_Handler                                   ./core.a(cortex_handlers.c.o)
 PM_Handler                                        ./core.a(cortex_handlers.c.o)
@@ -2068,14 +2231,16 @@ PluggableUSB_::getShortName(char*)                ./core.a(PluggableUSB.cpp.o)
 PluggableUSB_::plug(PluggableUSBModule*)          ./core.a(PluggableUSB.cpp.o)
 PluggableUSB_::setup(USBSetup&)                   ./core.a(PluggableUSB.cpp.o)
                                                   ./core.a(USBCore.cpp.o)
-Print::availableForWrite()                        project/SoftwareSerial.cpp.o
+Print::availableForWrite()                        project/LiquidCrystal.cpp.o
                                                   ./core.a(CDC.cpp.o)
                                                   ./core.a(Uart.cpp.o)
                                                   ./core.a(Print.cpp.o)
-Print::flush()                                    project/SoftwareSerial.cpp.o
+                                                  project/SoftwareSerial.cpp.o
+Print::flush()                                    project/LiquidCrystal.cpp.o
                                                   ./core.a(CDC.cpp.o)
                                                   ./core.a(Uart.cpp.o)
                                                   ./core.a(Print.cpp.o)
+                                                  project/SoftwareSerial.cpp.o
 Print::print(Printable const&)                    ./core.a(Print.cpp.o)
 Print::print(String const&)                       ./core.a(Print.cpp.o)
 Print::print(__FlashStringHelper const*)          ./core.a(Print.cpp.o)
@@ -2109,6 +2274,7 @@ Print::write(char const*)                         ./core.a(Print.cpp.o)
 Print::write(unsigned char const*, unsigned int)  ./core.a(Print.cpp.o)
                                                   ./core.a(Uart.cpp.o)
                                                   project/SoftwareSerial.cpp.o
+                                                  project/LiquidCrystal.cpp.o
 RTC_Handler                                       ./core.a(cortex_handlers.c.o)
 Reset_Handler                                     ./core.a(cortex_handlers.c.o)
 RingBufferN<64>::available()                      ./core.a(Uart.cpp.o)
@@ -2220,8 +2386,8 @@ Serial_::stopbits()                               ./core.a(CDC.cpp.o)
 Serial_::write(unsigned char const*, unsigned int) ./core.a(CDC.cpp.o)
 Serial_::write(unsigned char)                     ./core.a(CDC.cpp.o)
 SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool) project/SoftwareSerial.cpp.o
-                                                  project/fall2018HearingCarMainCode.cpp.o
 SoftwareSerial::SoftwareSerial(unsigned char, unsigned char, bool) project/SoftwareSerial.cpp.o
+                                                  project/fall2018HearingCarMainCode.cpp.o
 SoftwareSerial::_receive_buffer                   project/SoftwareSerial.cpp.o
 SoftwareSerial::_receive_buffer_head              project/SoftwareSerial.cpp.o
 SoftwareSerial::_receive_buffer_tail              project/SoftwareSerial.cpp.o
@@ -2241,8 +2407,8 @@ SoftwareSerial::setTX(unsigned char)              project/SoftwareSerial.cpp.o
 SoftwareSerial::stopListening()                   project/SoftwareSerial.cpp.o
 SoftwareSerial::write(unsigned char)              project/SoftwareSerial.cpp.o
 SoftwareSerial::~SoftwareSerial()                 project/SoftwareSerial.cpp.o
-SoftwareSerial::~SoftwareSerial()                 project/SoftwareSerial.cpp.o
                                                   project/fall2018HearingCarMainCode.cpp.o
+SoftwareSerial::~SoftwareSerial()                 project/SoftwareSerial.cpp.o
 SysTick_DefaultHandler                            ./core.a(delay.c.o)
                                                   ./core.a(cortex_handlers.c.o)
 SysTick_Handler                                   ./core.a(cortex_handlers.c.o)
@@ -2313,8 +2479,8 @@ USB_SetHandler                                    ./core.a(cortex_handlers.c.o)
 Uart::IrqHandler()                                ./core.a(Uart.cpp.o)
                                                   ./core.a(variant.cpp.o)
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) ./core.a(Uart.cpp.o)
-                                                  ./core.a(variant.cpp.o)
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) ./core.a(Uart.cpp.o)
+                                                  ./core.a(variant.cpp.o)
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char) ./core.a(Uart.cpp.o)
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char) ./core.a(Uart.cpp.o)
 Uart::available()                                 ./core.a(Uart.cpp.o)
@@ -2378,12 +2544,12 @@ __aeabi_f2uiz                                     /Users/aryamirshafii/.arduinoc
 __aeabi_fcmpeq                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
 __aeabi_fcmpge                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
                                                   /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_fixunssfsi.o)
-__aeabi_fcmpgt                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
                                                   project/fall2018HearingCarMainCode.cpp.o
+__aeabi_fcmpgt                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
                                                   project/AudioFrequencyMeter.cpp.o
 __aeabi_fcmple                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
-__aeabi_fcmplt                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
                                                   project/fall2018HearingCarMainCode.cpp.o
+__aeabi_fcmplt                                    /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
                                                   project/AudioFrequencyMeter.cpp.o
 __aeabi_fdiv                                      /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/libgcc.a(divsf3.o)
                                                   project/SoftwareSerial.cpp.o
@@ -2547,6 +2713,7 @@ digitalWrite                                      ./core.a(wiring_digital.c.o)
                                                   ./core.a(USBCore.cpp.o)
                                                   ./core.a(wiring_analog.c.o)
                                                   project/SoftwareSerial.cpp.o
+                                                  project/LiquidCrystal.cpp.o
                                                   project/AudioFrequencyMeter.cpp.o
 end                                               /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
 errno                                             /Users/aryamirshafii/.arduinocdt/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
@@ -2575,7 +2742,7 @@ init                                              ./core.a(wiring.c.o)
 initVariant()                                     ./core.a(main.cpp.o)
 initiateReset                                     ./core.a(Reset.cpp.o)
                                                   ./core.a(CDC.cpp.o)
-inputPin                                          project/fall2018HearingCarMainCode.cpp.o
+lcd                                               project/fall2018HearingCarMainCode.cpp.o
 leftPin                                           project/fall2018HearingCarMainCode.cpp.o
 leftSound                                         project/fall2018HearingCarMainCode.cpp.o
 loop                                              project/fall2018HearingCarMainCode.cpp.o
@@ -2613,6 +2780,7 @@ pinMode                                           ./core.a(wiring_digital.c.o)
                                                   ./core.a(wiring.c.o)
                                                   project/fall2018HearingCarMainCode.cpp.o
                                                   project/SoftwareSerial.cpp.o
+                                                  project/LiquidCrystal.cpp.o
                                                   project/AudioFrequencyMeter.cpp.o
 pinPeripheral                                     ./core.a(wiring_private.c.o)
                                                   ./core.a(wiring_analog.c.o)
@@ -2621,6 +2789,7 @@ pinPeripheral                                     ./core.a(wiring_private.c.o)
                                                   project/AudioFrequencyMeter.cpp.o
 rightPin                                          project/fall2018HearingCarMainCode.cpp.o
 rightSound                                        project/fall2018HearingCarMainCode.cpp.o
+samplePin                                         project/FrequencyDetect.cpp.o
 sercom0                                           ./core.a(variant.cpp.o)
 sercom1                                           ./core.a(variant.cpp.o)
 sercom2                                           ./core.a(variant.cpp.o)
@@ -2642,6 +2811,7 @@ tickReset                                         ./core.a(Reset.cpp.o)
 usbd                                              ./core.a(USBCore.cpp.o)
 vtable for DoubleBufferedEPOutHandler             ./core.a(USBCore.cpp.o)
 vtable for EPHandler                              ./core.a(USBCore.cpp.o)
+vtable for LiquidCrystal                          project/LiquidCrystal.cpp.o
 vtable for Print                                  ./core.a(Print.cpp.o)
 vtable for Serial_                                ./core.a(CDC.cpp.o)
 vtable for SoftwareSerial                         project/SoftwareSerial.cpp.o
