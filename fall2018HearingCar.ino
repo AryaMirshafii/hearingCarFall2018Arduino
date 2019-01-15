@@ -19,7 +19,7 @@ int rightSound = 0;
 void calcDirectionAndFreq();
 void writeToBLE(int isLeft, float freq);
 AudioFrequencyMeter meter;
-SoftwareSerial mySerial(12, 13); //RX, TX
+SoftwareSerial bluetooth(12, 13); //RX, TX
 
 
 
@@ -27,6 +27,7 @@ void setup() {
 
 
   Serial.begin(9600);
+  bluetooth.begin(9600); 
   pinMode(rightPin, INPUT);
   pinMode(leftPin, INPUT);
 
@@ -39,8 +40,11 @@ void setup() {
 }
 
 void loop() {
+  meter.begin(frequencyPin, 45000);
   calcDirectionAndFreq();
+  //btConnection.flush();
   
+  //bluetooth.println("Aryaaa");
   //delay(500);
 }
 
@@ -66,14 +70,13 @@ void calcDirectionAndFreq(){
     Serial.println("The Sound is coming from the right");
   }
 
+  
+
+
+
+  
   writeToBLE(leftSound, frequency);
-
-
-
-
-  if(frequency > 0){
-    
-  }
+  
   Serial.print("With a frequency of");
   Serial.println(frequency);
 
@@ -91,38 +94,41 @@ void calcDirectionAndFreq(){
 // 3 = right siren
 // 4 = right horn
 void writeToBLE(int isLeft, float freq){
+  
 
+  //Serial.println(isLeft);
+  //Serial.println(freq);
     if(freq >= 350 && freq <= 450){
        // its a horn
 
        if(isLeft){
-          mySerial.println(2);
-          
+          bluetooth.println(2);
+          return;
        }else{
-          mySerial.println(4);
-          
+          bluetooth.println(4);
+          return;
        }
 
 
-    }else if(freq >= 850 && freq <= 950){
+    }else if( freq >= 850 && freq <= 950){
       // its a siren
 
       if(isLeft){
-          mySerial.println(1);
-
+          bluetooth.println(1);
+          return;
           
 
 
 
-       }else{
-          mySerial.println(3);
+       }else if(freq  != -1){
+          bluetooth.println(3);
 
-          
+          return;
        }
 
     }
-
-
+  meter.end();
+  bluetooth.println(5);
 
 
 }
